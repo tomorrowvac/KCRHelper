@@ -8,6 +8,7 @@
 
 #import "HTWKcrViewController.h"
 #import "EquipInfoTableViewController.h"
+#import "ExpeditionsListViewConreoller.h"
 
 @interface HTWKcrViewController ()
 
@@ -47,6 +48,20 @@
     
     
 }
+- (IBAction)expeditionInfoClicked:(id)sender {
+    ExpeditionsListViewConreoller *expeditionListVC =[[ExpeditionsListViewConreoller alloc]init];
+    [self.navigationController pushViewController:expeditionListVC animated:YES];
+    
+}
+- (IBAction)questInfoClicked:(id)sender {
+    
+    
+}
+- (IBAction)equipFormularClicked:(id)sender {
+    
+    
+}
+
 
 
 #pragma mark - 移除顶部电池状态栏

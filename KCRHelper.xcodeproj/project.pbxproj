@@ -12,6 +12,22 @@
 		1D9AACA11B20BCDA00A190E2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D9AACA01B20BCDA00A190E2 /* Images.xcassets */; };
 		1D9AACA41B20BCDA00A190E2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D9AACA21B20BCDA00A190E2 /* LaunchScreen.xib */; };
 		1D9AACB01B20BCDA00A190E2 /* KCRHelperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D9AACAF1B20BCDA00A190E2 /* KCRHelperTests.m */; };
+		1DDA508D1B2184D6009319FB /* ExpeditionsListViewConreoller.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DDA508B1B2184D6009319FB /* ExpeditionsListViewConreoller.m */; };
+		1DDA508E1B2184D6009319FB /* ExpeditionsListViewConreoller.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDA508C1B2184D6009319FB /* ExpeditionsListViewConreoller.xib */; };
+		1DDA50961B21859E009319FB /* 油0.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDA50921B21859E009319FB /* 油0.png */; };
+		1DDA50971B21859E009319FB /* 弹0.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDA50931B21859E009319FB /* 弹0.png */; };
+		1DDA50981B21859E009319FB /* 钢0.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDA50941B21859E009319FB /* 钢0.png */; };
+		1DDA50991B21859E009319FB /* 铝0.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDA50951B21859E009319FB /* 铝0.png */; };
+		1DDA509B1B2185BC009319FB /* 开发建材.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDA509A1B2185BC009319FB /* 开发建材.png */; };
+		1DDA50A21B2185F3009319FB /* image 456.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDA509E1B2185F3009319FB /* image 456.png */; };
+		1DDA50A31B2185F3009319FB /* image 459.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDA509F1B2185F3009319FB /* image 459.png */; };
+		1DDA50A41B2185F3009319FB /* image 461.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDA50A01B2185F3009319FB /* image 461.png */; };
+		1DDA50A51B2185F3009319FB /* image 463.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDA50A11B2185F3009319FB /* image 463.png */; };
+		1DDA50A81B218680009319FB /* 高速修复材.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDA50A61B218680009319FB /* 高速修复材.png */; };
+		1DDA50A91B218680009319FB /* 高速建造材.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDA50A71B218680009319FB /* 高速建造材.png */; };
+		1DDA50AB1B218789009319FB /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDA50AA1B218789009319FB /* logo.png */; };
+		1DDA50AD1B21878E009319FB /* bg-body.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1DDA50AC1B21878E009319FB /* bg-body.jpg */; };
+		1DDA50AF1B2187A4009319FB /* image 56.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDA50AE1B2187A4009319FB /* image 56.png */; };
 		9A0BB5AB1B2146F80084D30C /* EquipInfoListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0BB5AA1B2146F80084D30C /* EquipInfoListViewController.m */; };
 		9A0BB5AF1B2147100084D30C /* EquipInfoDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0BB5AD1B2147100084D30C /* EquipInfoDetailViewController.m */; };
 		9A0BB5B01B2147100084D30C /* EquipInfoDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A0BB5AE1B2147100084D30C /* EquipInfoDetailViewController.xib */; };
@@ -41,6 +57,23 @@
 		1D9AACA91B20BCDA00A190E2 /* KCRHelperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KCRHelperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D9AACAE1B20BCDA00A190E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1D9AACAF1B20BCDA00A190E2 /* KCRHelperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KCRHelperTests.m; sourceTree = "<group>"; };
+		1DDA508A1B2184D6009319FB /* ExpeditionsListViewConreoller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ExpeditionsListViewConreoller.h; path = ExpeditionInfo/ExpeditionsListViewConreoller.h; sourceTree = "<group>"; };
+		1DDA508B1B2184D6009319FB /* ExpeditionsListViewConreoller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ExpeditionsListViewConreoller.m; path = ExpeditionInfo/ExpeditionsListViewConreoller.m; sourceTree = "<group>"; };
+		1DDA508C1B2184D6009319FB /* ExpeditionsListViewConreoller.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ExpeditionsListViewConreoller.xib; path = ExpeditionInfo/ExpeditionsListViewConreoller.xib; sourceTree = "<group>"; };
+		1DDA50921B21859E009319FB /* 油0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "油0.png"; sourceTree = "<group>"; };
+		1DDA50931B21859E009319FB /* 弹0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "弹0.png"; sourceTree = "<group>"; };
+		1DDA50941B21859E009319FB /* 钢0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "钢0.png"; sourceTree = "<group>"; };
+		1DDA50951B21859E009319FB /* 铝0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "铝0.png"; sourceTree = "<group>"; };
+		1DDA509A1B2185BC009319FB /* 开发建材.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "开发建材.png"; sourceTree = "<group>"; };
+		1DDA509E1B2185F3009319FB /* image 456.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image 456.png"; sourceTree = "<group>"; };
+		1DDA509F1B2185F3009319FB /* image 459.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image 459.png"; sourceTree = "<group>"; };
+		1DDA50A01B2185F3009319FB /* image 461.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image 461.png"; sourceTree = "<group>"; };
+		1DDA50A11B2185F3009319FB /* image 463.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image 463.png"; sourceTree = "<group>"; };
+		1DDA50A61B218680009319FB /* 高速修复材.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "高速修复材.png"; sourceTree = "<group>"; };
+		1DDA50A71B218680009319FB /* 高速建造材.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "高速建造材.png"; sourceTree = "<group>"; };
+		1DDA50AA1B218789009319FB /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		1DDA50AC1B21878E009319FB /* bg-body.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bg-body.jpg"; sourceTree = "<group>"; };
+		1DDA50AE1B2187A4009319FB /* image 56.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image 56.png"; sourceTree = "<group>"; };
 		9A0BB5A91B2146F80084D30C /* EquipInfoListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EquipInfoListViewController.h; sourceTree = "<group>"; };
 		9A0BB5AA1B2146F80084D30C /* EquipInfoListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EquipInfoListViewController.m; sourceTree = "<group>"; };
 		9A0BB5AC1B2147100084D30C /* EquipInfoDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EquipInfoDetailViewController.h; sourceTree = "<group>"; };
@@ -92,6 +125,7 @@
 		1D9AAC921B20BCDA00A190E2 /* KCRHelper */ = {
 			isa = PBXGroup;
 			children = (
+				1DDA508F1B218550009319FB /* rescources */,
 				1D9AAC971B20BCDA00A190E2 /* AppDelegate.h */,
 				1D9AAC981B20BCDA00A190E2 /* AppDelegate.m */,
 				1D9AACA01B20BCDA00A190E2 /* Images.xcassets */,
@@ -128,15 +162,80 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		1DDA50871B218287009319FB /* EquipFormular */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = EquipFormular;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		1DDA50881B2182AC009319FB /* QuestInfo */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = QuestInfo;
+			sourceTree = "<group>";
+		};
+		1DDA50891B2182BA009319FB /* ExpeditionInfo */ = {
+			isa = PBXGroup;
+			children = (
+				1DDA508A1B2184D6009319FB /* ExpeditionsListViewConreoller.h */,
+				1DDA508B1B2184D6009319FB /* ExpeditionsListViewConreoller.m */,
+				1DDA508C1B2184D6009319FB /* ExpeditionsListViewConreoller.xib */,
+			);
+			name = ExpeditionInfo;
+			sourceTree = "<group>";
+		};
+		1DDA508F1B218550009319FB /* rescources */ = {
+			isa = PBXGroup;
+			children = (
+				1DDA50911B218570009319FB /* UI */,
+				1DDA50901B21855D009319FB /* launchScreen */,
+			);
+			name = rescources;
+			sourceTree = "<group>";
+		};
+		1DDA50901B21855D009319FB /* launchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				1DDA50AA1B218789009319FB /* logo.png */,
+				1DDA50AC1B21878E009319FB /* bg-body.jpg */,
+				1DDA50AE1B2187A4009319FB /* image 56.png */,
+			);
+			name = launchScreen;
+			sourceTree = "<group>";
+		};
+		1DDA50911B218570009319FB /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				1DDA50A61B218680009319FB /* 高速修复材.png */,
+				1DDA50A71B218680009319FB /* 高速建造材.png */,
+				1DDA509A1B2185BC009319FB /* 开发建材.png */,
+				1DDA50921B21859E009319FB /* 油0.png */,
+				1DDA50931B21859E009319FB /* 弹0.png */,
+				1DDA50941B21859E009319FB /* 钢0.png */,
+				1DDA50951B21859E009319FB /* 铝0.png */,
+				1DDA509E1B2185F3009319FB /* image 456.png */,
+				1DDA509F1B2185F3009319FB /* image 459.png */,
+				1DDA50A01B2185F3009319FB /* image 461.png */,
+				1DDA50A11B2185F3009319FB /* image 463.png */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
 		9AE46DD61B21303500C13EA9 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
 				9AE46DD71B2130B000C13EA9 /* HTWKcrViewController.h */,
 				9AE46DD81B2130B000C13EA9 /* HTWKcrViewController.m */,
 				9AE46DD91B2130B000C13EA9 /* HTWKcrViewController.xib */,
-				9AE46DDF1B213BAF00C13EA9 /* EquipInfo */,
 				9AE46DE11B213BAF00C13EA9 /* ShipInfo */,
+				9AE46DDF1B213BAF00C13EA9 /* EquipInfo */,
 				9AE46DE01B213BAF00C13EA9 /* ShipFormular */,
+				1DDA50871B218287009319FB /* EquipFormular */,
+				1DDA50881B2182AC009319FB /* QuestInfo */,
+				1DDA50891B2182BA009319FB /* ExpeditionInfo */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -249,9 +348,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DDA509B1B2185BC009319FB /* 开发建材.png in Resources */,
 				9A0BB5B01B2147100084D30C /* EquipInfoDetailViewController.xib in Resources */,
+				1DDA50A41B2185F3009319FB /* image 461.png in Resources */,
 				9AE46DDB1B2130B000C13EA9 /* HTWKcrViewController.xib in Resources */,
+				1DDA508E1B2184D6009319FB /* ExpeditionsListViewConreoller.xib in Resources */,
+				1DDA50AB1B218789009319FB /* logo.png in Resources */,
+				1DDA50A91B218680009319FB /* 高速建造材.png in Resources */,
+				1DDA50981B21859E009319FB /* 钢0.png in Resources */,
+				1DDA50991B21859E009319FB /* 铝0.png in Resources */,
+				1DDA50971B21859E009319FB /* 弹0.png in Resources */,
+				1DDA50AD1B21878E009319FB /* bg-body.jpg in Resources */,
 				1D9AACA41B20BCDA00A190E2 /* LaunchScreen.xib in Resources */,
+				1DDA50AF1B2187A4009319FB /* image 56.png in Resources */,
+				1DDA50A51B2185F3009319FB /* image 463.png in Resources */,
+				1DDA50A81B218680009319FB /* 高速修复材.png in Resources */,
+				1DDA50961B21859E009319FB /* 油0.png in Resources */,
+				1DDA50A21B2185F3009319FB /* image 456.png in Resources */,
+				1DDA50A31B2185F3009319FB /* image 459.png in Resources */,
 				1D9AACA11B20BCDA00A190E2 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,6 +388,7 @@
 				9A0BB5AB1B2146F80084D30C /* EquipInfoListViewController.m in Sources */,
 				9A0BB5AF1B2147100084D30C /* EquipInfoDetailViewController.m in Sources */,
 				9AE46DDA1B2130B000C13EA9 /* HTWKcrViewController.m in Sources */,
+				1DDA508D1B2184D6009319FB /* ExpeditionsListViewConreoller.m in Sources */,
 				1D9AAC991B20BCDA00A190E2 /* AppDelegate.m in Sources */,
 				1D9AAC961B20BCDA00A190E2 /* main.m in Sources */,
 			);
