@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D2708191B21936200C95571 /* HTWKcrViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D2708181B21936200C95571 /* HTWKcrViewController.xib */; };
 		1D9AAC961B20BCDA00A190E2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D9AAC951B20BCDA00A190E2 /* main.m */; };
 		1D9AAC991B20BCDA00A190E2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D9AAC981B20BCDA00A190E2 /* AppDelegate.m */; };
 		1D9AACA11B20BCDA00A190E2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D9AACA01B20BCDA00A190E2 /* Images.xcassets */; };
@@ -32,7 +33,6 @@
 		9A0BB5AF1B2147100084D30C /* EquipInfoDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0BB5AD1B2147100084D30C /* EquipInfoDetailViewController.m */; };
 		9A0BB5B01B2147100084D30C /* EquipInfoDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A0BB5AE1B2147100084D30C /* EquipInfoDetailViewController.xib */; };
 		9AE46DDA1B2130B000C13EA9 /* HTWKcrViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AE46DD81B2130B000C13EA9 /* HTWKcrViewController.m */; };
-		9AE46DDB1B2130B000C13EA9 /* HTWKcrViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9AE46DD91B2130B000C13EA9 /* HTWKcrViewController.xib */; };
 		9AE46DE41B213C0D00C13EA9 /* EquipInfoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AE46DE31B213C0D00C13EA9 /* EquipInfoTableViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -47,6 +47,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1D2708181B21936200C95571 /* HTWKcrViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HTWKcrViewController.xib; sourceTree = "<group>"; };
 		1D9AAC901B20BCDA00A190E2 /* KCRHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KCRHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D9AAC941B20BCDA00A190E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1D9AAC951B20BCDA00A190E2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -81,7 +82,6 @@
 		9A0BB5AE1B2147100084D30C /* EquipInfoDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EquipInfoDetailViewController.xib; sourceTree = "<group>"; };
 		9AE46DD71B2130B000C13EA9 /* HTWKcrViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTWKcrViewController.h; sourceTree = "<group>"; };
 		9AE46DD81B2130B000C13EA9 /* HTWKcrViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTWKcrViewController.m; sourceTree = "<group>"; };
-		9AE46DD91B2130B000C13EA9 /* HTWKcrViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HTWKcrViewController.xib; sourceTree = "<group>"; };
 		9AE46DE21B213C0D00C13EA9 /* EquipInfoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EquipInfoTableViewController.h; sourceTree = "<group>"; };
 		9AE46DE31B213C0D00C13EA9 /* EquipInfoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EquipInfoTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -229,7 +229,7 @@
 			children = (
 				9AE46DD71B2130B000C13EA9 /* HTWKcrViewController.h */,
 				9AE46DD81B2130B000C13EA9 /* HTWKcrViewController.m */,
-				9AE46DD91B2130B000C13EA9 /* HTWKcrViewController.xib */,
+				1D2708181B21936200C95571 /* HTWKcrViewController.xib */,
 				9AE46DE11B213BAF00C13EA9 /* ShipInfo */,
 				9AE46DDF1B213BAF00C13EA9 /* EquipInfo */,
 				9AE46DE01B213BAF00C13EA9 /* ShipFormular */,
@@ -351,7 +351,6 @@
 				1DDA509B1B2185BC009319FB /* 开发建材.png in Resources */,
 				9A0BB5B01B2147100084D30C /* EquipInfoDetailViewController.xib in Resources */,
 				1DDA50A41B2185F3009319FB /* image 461.png in Resources */,
-				9AE46DDB1B2130B000C13EA9 /* HTWKcrViewController.xib in Resources */,
 				1DDA508E1B2184D6009319FB /* ExpeditionsListViewConreoller.xib in Resources */,
 				1DDA50AB1B218789009319FB /* logo.png in Resources */,
 				1DDA50A91B218680009319FB /* 高速建造材.png in Resources */,
@@ -360,6 +359,7 @@
 				1DDA50971B21859E009319FB /* 弹0.png in Resources */,
 				1DDA50AD1B21878E009319FB /* bg-body.jpg in Resources */,
 				1D9AACA41B20BCDA00A190E2 /* LaunchScreen.xib in Resources */,
+				1D2708191B21936200C95571 /* HTWKcrViewController.xib in Resources */,
 				1DDA50AF1B2187A4009319FB /* image 56.png in Resources */,
 				1DDA50A51B2185F3009319FB /* image 463.png in Resources */,
 				1DDA50A81B218680009319FB /* 高速修复材.png in Resources */,
