@@ -29,7 +29,6 @@
 		1DDA50AB1B218789009319FB /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDA50AA1B218789009319FB /* logo.png */; };
 		1DDA50AD1B21878E009319FB /* bg-body.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1DDA50AC1B21878E009319FB /* bg-body.jpg */; };
 		1DDA50AF1B2187A4009319FB /* image 56.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDA50AE1B2187A4009319FB /* image 56.png */; };
-		9A0BB5AB1B2146F80084D30C /* EquipInfoListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0BB5AA1B2146F80084D30C /* EquipInfoListViewController.m */; };
 		9A0BB5AF1B2147100084D30C /* EquipInfoDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0BB5AD1B2147100084D30C /* EquipInfoDetailViewController.m */; };
 		9A0BB5B01B2147100084D30C /* EquipInfoDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A0BB5AE1B2147100084D30C /* EquipInfoDetailViewController.xib */; };
 		9A0BB5FA1B21CC5A0084D30C /* EquipList_ssm_1_3.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9A0BB5F91B21CC5A0084D30C /* EquipList_ssm_1_3.plist */; };
@@ -77,8 +76,6 @@
 		1DDA50AA1B218789009319FB /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 		1DDA50AC1B21878E009319FB /* bg-body.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bg-body.jpg"; sourceTree = "<group>"; };
 		1DDA50AE1B2187A4009319FB /* image 56.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image 56.png"; sourceTree = "<group>"; };
-		9A0BB5A91B2146F80084D30C /* EquipInfoListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EquipInfoListViewController.h; sourceTree = "<group>"; };
-		9A0BB5AA1B2146F80084D30C /* EquipInfoListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EquipInfoListViewController.m; sourceTree = "<group>"; };
 		9A0BB5AC1B2147100084D30C /* EquipInfoDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EquipInfoDetailViewController.h; sourceTree = "<group>"; };
 		9A0BB5AD1B2147100084D30C /* EquipInfoDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EquipInfoDetailViewController.m; sourceTree = "<group>"; };
 		9A0BB5AE1B2147100084D30C /* EquipInfoDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EquipInfoDetailViewController.xib; sourceTree = "<group>"; };
@@ -267,8 +264,6 @@
 			children = (
 				9AE46DE21B213C0D00C13EA9 /* EquipInfoTableViewController.h */,
 				9AE46DE31B213C0D00C13EA9 /* EquipInfoTableViewController.m */,
-				9A0BB5A91B2146F80084D30C /* EquipInfoListViewController.h */,
-				9A0BB5AA1B2146F80084D30C /* EquipInfoListViewController.m */,
 				9A0BB5AC1B2147100084D30C /* EquipInfoDetailViewController.h */,
 				9A0BB5AD1B2147100084D30C /* EquipInfoDetailViewController.m */,
 				9A0BB5AE1B2147100084D30C /* EquipInfoDetailViewController.xib */,
@@ -409,7 +404,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				9AE46DE41B213C0D00C13EA9 /* EquipInfoTableViewController.m in Sources */,
-				9A0BB5AB1B2146F80084D30C /* EquipInfoListViewController.m in Sources */,
 				9A0BB5AF1B2147100084D30C /* EquipInfoDetailViewController.m in Sources */,
 				9AE46DDA1B2130B000C13EA9 /* HTWKcrViewController.m in Sources */,
 				1DDA508D1B2184D6009319FB /* ExpeditionsListViewConreoller.m in Sources */,

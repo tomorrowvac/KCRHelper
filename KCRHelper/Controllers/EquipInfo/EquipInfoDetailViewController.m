@@ -16,7 +16,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-
+    self.title = self.equipment[@"eName"];
+    
 
 
 }

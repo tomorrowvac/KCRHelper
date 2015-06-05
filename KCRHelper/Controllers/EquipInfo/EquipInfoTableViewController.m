@@ -7,6 +7,7 @@
 //
 
 #import "EquipInfoTableViewController.h"
+#import "EquipInfoDetailViewController.h"
 
 @interface EquipInfoTableViewController ()
 
@@ -68,8 +69,16 @@
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    EquipInfoDetailViewController* equipIDVC = [[EquipInfoDetailViewController alloc]init];
     
     
+    if (indexPath.section == 0) {
+               equipIDVC.equipment =self.equipList[indexPath.row];
+    }else if (indexPath.section == 1) {
+               equipIDVC.equipment =self.equipList1[indexPath.row];
+    }
+    
+    [self.navigationController pushViewController:equipIDVC animated:YES];
     
 }
 
