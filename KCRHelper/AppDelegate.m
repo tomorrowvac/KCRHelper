@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "HTWKcrViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,14 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor = [UIColor whiteColor];
+    HTWKcrViewController* kcrVC = [[HTWKcrViewController alloc]init];
+    UINavigationController* mainNVC = [[UINavigationController alloc]initWithRootViewController:kcrVC];
+
+    self.window.rootViewController = mainNVC;
+    [self.window makeKeyAndVisible];
     return YES;
 }
 
