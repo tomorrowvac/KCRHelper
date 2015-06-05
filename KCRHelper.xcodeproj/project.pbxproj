@@ -125,12 +125,13 @@
 		1D9AAC921B20BCDA00A190E2 /* KCRHelper */ = {
 			isa = PBXGroup;
 			children = (
-				1DDA508F1B218550009319FB /* rescources */,
 				1D9AAC971B20BCDA00A190E2 /* AppDelegate.h */,
 				1D9AAC981B20BCDA00A190E2 /* AppDelegate.m */,
 				1D9AACA01B20BCDA00A190E2 /* Images.xcassets */,
 				1D9AACA21B20BCDA00A190E2 /* LaunchScreen.xib */,
+				9A0BB5EC1B21A1150084D30C /* Models */,
 				9AE46DD61B21303500C13EA9 /* Controllers */,
+				1DDA508F1B218550009319FB /* rescources */,
 				1D9AAC931B20BCDA00A190E2 /* Supporting Files */,
 			);
 			path = KCRHelper;
@@ -222,6 +223,21 @@
 				1DDA50A11B2185F3009319FB /* image 463.png */,
 			);
 			name = UI;
+			sourceTree = "<group>";
+		};
+		9A0BB5EC1B21A1150084D30C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9A0BB5ED1B21A3260084D30C /* EquipInfo */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9A0BB5ED1B21A3260084D30C /* EquipInfo */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = EquipInfo;
 			sourceTree = "<group>";
 		};
 		9AE46DD61B21303500C13EA9 /* Controllers */ = {
