@@ -230,9 +230,17 @@
 		9A0BB5FB1B21CC5F0084D30C /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				9A0BB5F91B21CC5A0084D30C /* EquipList_ssm_1_3.plist */,
+				9A0BB5FC1B21D4FD0084D30C /* EquipInfo */,
 			);
 			name = Models;
+			sourceTree = "<group>";
+		};
+		9A0BB5FC1B21D4FD0084D30C /* EquipInfo */ = {
+			isa = PBXGroup;
+			children = (
+				9A0BB5F91B21CC5A0084D30C /* EquipList_ssm_1_3.plist */,
+			);
+			name = EquipInfo;
 			sourceTree = "<group>";
 		};
 		9AE46DD61B21303500C13EA9 /* Controllers */ = {

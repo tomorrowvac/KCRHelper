@@ -11,6 +11,7 @@
 @interface EquipInfoTableViewController ()
 
 @property NSArray* equipList;
+@property NSDictionary* expeditionList;
 
 @end
 
@@ -23,20 +24,19 @@
     NSString* equipPath = [[NSBundle mainBundle]pathForResource:@"EquipList_ssm_1_3" ofType:@"plist"];
     self.equipList = [NSArray arrayWithContentsOfFile:equipPath];
     
+    self.expeditionList = @{@"小口径主砲":@1,
+                            @"中口径主砲":@2};
     
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-   
-    
-    
 }
 
 #pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-    return 1;
+    return [self.expeditionList count];
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
@@ -50,6 +50,11 @@
     cell.textLabel.text = self.equipList[indexPath.row][@"eName"];
     
     return cell;
+}
+
+//section标题名
+- (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section{
+    return [[self.expeditionList allKeys]objectAtIndex:section];
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
