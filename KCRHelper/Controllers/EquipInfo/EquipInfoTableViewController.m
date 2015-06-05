@@ -11,8 +11,8 @@
 @interface EquipInfoTableViewController ()
 
 @property NSArray* equipList;
+@property NSArray* equipList1;
 @property NSDictionary* expeditionList;
-
 @end
 
 @implementation EquipInfoTableViewController
@@ -21,11 +21,16 @@
     [super viewDidLoad];
     self.title =@"装备资料";
     self.navigationController.navigationBarHidden = NO;
+    //装备数据：小口径单装炮
     NSString* equipPath = [[NSBundle mainBundle]pathForResource:@"EquipList_ssm_1_3" ofType:@"plist"];
     self.equipList = [NSArray arrayWithContentsOfFile:equipPath];
+    //装备数据：小口径单装炮
+    NSString* equipPath1 = [[NSBundle mainBundle]pathForResource:@"EquipList_mm_4_6" ofType:@"plist"];
+    self.equipList1 = [NSArray arrayWithContentsOfFile:equipPath1];
     
-    self.expeditionList = @{@"小口径主砲":@1,
-                            @"中口径主砲":@2};
+    
+    self.expeditionList = @{@"小口径主砲":@0,
+                            @"中口径主砲":@1};
     
 }
 
@@ -47,7 +52,12 @@
 - (UITableViewCell*)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     UITableViewCell* cell  = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleValue1 reuseIdentifier:@"UITableViewCellStyleValue1"];
     
-    cell.textLabel.text = self.equipList[indexPath.row][@"eName"];
+    if (indexPath.section == 0) {
+        cell.textLabel.text = self.equipList[indexPath.row][@"eName"];
+    }else if (indexPath.section == 1) {
+        cell.textLabel.text = self.equipList1[indexPath.row][@"eName"];
+    }
+    
     
     return cell;
 }

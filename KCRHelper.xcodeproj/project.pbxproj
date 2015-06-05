@@ -33,6 +33,7 @@
 		9A0BB5AF1B2147100084D30C /* EquipInfoDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0BB5AD1B2147100084D30C /* EquipInfoDetailViewController.m */; };
 		9A0BB5B01B2147100084D30C /* EquipInfoDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A0BB5AE1B2147100084D30C /* EquipInfoDetailViewController.xib */; };
 		9A0BB5FA1B21CC5A0084D30C /* EquipList_ssm_1_3.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9A0BB5F91B21CC5A0084D30C /* EquipList_ssm_1_3.plist */; };
+		9A0BB5FE1B21DEBE0084D30C /* EquipList_mm_4_6.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9A0BB5FD1B21DEBE0084D30C /* EquipList_mm_4_6.plist */; };
 		9AE46DDA1B2130B000C13EA9 /* HTWKcrViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AE46DD81B2130B000C13EA9 /* HTWKcrViewController.m */; };
 		9AE46DE41B213C0D00C13EA9 /* EquipInfoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AE46DE31B213C0D00C13EA9 /* EquipInfoTableViewController.m */; };
 /* End PBXBuildFile section */
@@ -82,6 +83,7 @@
 		9A0BB5AD1B2147100084D30C /* EquipInfoDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EquipInfoDetailViewController.m; sourceTree = "<group>"; };
 		9A0BB5AE1B2147100084D30C /* EquipInfoDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EquipInfoDetailViewController.xib; sourceTree = "<group>"; };
 		9A0BB5F91B21CC5A0084D30C /* EquipList_ssm_1_3.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = EquipList_ssm_1_3.plist; sourceTree = "<group>"; };
+		9A0BB5FD1B21DEBE0084D30C /* EquipList_mm_4_6.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = EquipList_mm_4_6.plist; sourceTree = "<group>"; };
 		9AE46DD71B2130B000C13EA9 /* HTWKcrViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTWKcrViewController.h; sourceTree = "<group>"; };
 		9AE46DD81B2130B000C13EA9 /* HTWKcrViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTWKcrViewController.m; sourceTree = "<group>"; };
 		9AE46DE21B213C0D00C13EA9 /* EquipInfoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EquipInfoTableViewController.h; sourceTree = "<group>"; };
@@ -239,6 +241,7 @@
 			isa = PBXGroup;
 			children = (
 				9A0BB5F91B21CC5A0084D30C /* EquipList_ssm_1_3.plist */,
+				9A0BB5FD1B21DEBE0084D30C /* EquipList_mm_4_6.plist */,
 			);
 			name = EquipInfo;
 			sourceTree = "<group>";
@@ -374,6 +377,7 @@
 				1DDA50AB1B218789009319FB /* logo.png in Resources */,
 				9A0BB5FA1B21CC5A0084D30C /* EquipList_ssm_1_3.plist in Resources */,
 				1DDA50A91B218680009319FB /* 高速建造材.png in Resources */,
+				9A0BB5FE1B21DEBE0084D30C /* EquipList_mm_4_6.plist in Resources */,
 				1DDA50981B21859E009319FB /* 钢0.png in Resources */,
 				1DDA50991B21859E009319FB /* 铝0.png in Resources */,
 				1DDA50971B21859E009319FB /* 弹0.png in Resources */,
