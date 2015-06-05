@@ -26,14 +26,11 @@
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="toX-pA-Hpo">
                     <rect key="frame" x="56" y="270" width="65" height="65"/>
                 </imageView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BsY-lk-iEQ">
-                    <rect key="frame" x="201" y="270" width="65" height="65"/>
-                </imageView>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="o9i-Ij-hah">
                     <rect key="frame" x="32" y="366" width="65" height="65"/>
                 </imageView>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Fl0-hv-txt">
-                    <rect key="frame" x="224" y="366" width="65" height="65"/>
+                    <rect key="frame" x="201" y="270" width="65" height="65"/>
                 </imageView>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fT2-0r-A9e">
                     <rect key="frame" x="56" y="461" width="65" height="65"/>
@@ -53,17 +50,8 @@
                         <action selector="expeditionInfoClicked:" destination="-1" eventType="touchUpInside" id="jrR-OB-fNx"/>
                     </connections>
                 </button>
-                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nqy-ut-3TS">
-                    <rect key="frame" x="201" y="270" width="65" height="65"/>
-                    <state key="normal" title="舰娘">
-                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                    </state>
-                    <connections>
-                        <action selector="shipInfoClicked:" destination="-1" eventType="touchUpInside" id="Iu9-RY-amL"/>
-                    </connections>
-                </button>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bs6-xL-HiC">
-                    <rect key="frame" x="224" y="366" width="65" height="65"/>
+                    <rect key="frame" x="201" y="270" width="65" height="65"/>
                     <state key="normal" title="装备">
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
@@ -96,6 +84,18 @@
                     </state>
                     <connections>
                         <action selector="shipFormularClicked:" destination="-1" eventType="touchUpInside" id="ryl-QX-sFx"/>
+                    </connections>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BsY-lk-iEQ">
+                    <rect key="frame" x="233" y="366" width="65" height="65"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nqy-ut-3TS">
+                    <rect key="frame" x="233" y="366" width="65" height="65"/>
+                    <state key="normal" title="舰娘">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="shipInfoClicked:" destination="-1" eventType="touchUpInside" id="Iu9-RY-amL"/>
                     </connections>
                 </button>
             </subviews>

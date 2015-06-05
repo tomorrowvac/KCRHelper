@@ -10,6 +10,8 @@
 
 @interface EquipInfoTableViewController ()
 
+@property NSArray* equipList;
+
 @end
 
 @implementation EquipInfoTableViewController
@@ -18,7 +20,9 @@
     [super viewDidLoad];
     self.title =@"装备资料";
     self.navigationController.navigationBarHidden = NO;
-
+    NSString* equipPath = [[NSBundle mainBundle]pathForResource:@"EquipList_ssm_1_3" ofType:@"plist"];
+    self.equipList = [NSArray arrayWithContentsOfFile:equipPath];
+    
     
 }
 
@@ -32,24 +36,18 @@
 #pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-
-    
-    
-    
-    return 0;
+    return 1;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-
-    
-    
-    return 0;
+    return self.equipList.count;
 }
 
 #pragma mark - Table view data source
 - (UITableViewCell*)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     UITableViewCell* cell  = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleValue1 reuseIdentifier:@"UITableViewCellStyleValue1"];
     
+    cell.textLabel.text = self.equipList[indexPath.row][@"eName"];
     
     return cell;
 }
