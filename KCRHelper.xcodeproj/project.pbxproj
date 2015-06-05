@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		1D2708191B21936200C95571 /* HTWKcrViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D2708181B21936200C95571 /* HTWKcrViewController.xib */; };
+		1D27081D1B21A09C00C95571 /* ExpeditionInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D27081C1B21A09C00C95571 /* ExpeditionInfo.m */; };
+		1D2708201B21A27C00C95571 /* ExpeditionKind.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D27081F1B21A27C00C95571 /* ExpeditionKind.m */; };
 		1D9AAC961B20BCDA00A190E2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D9AAC951B20BCDA00A190E2 /* main.m */; };
 		1D9AAC991B20BCDA00A190E2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D9AAC981B20BCDA00A190E2 /* AppDelegate.m */; };
 		1D9AACA11B20BCDA00A190E2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D9AACA01B20BCDA00A190E2 /* Images.xcassets */; };
@@ -48,6 +50,10 @@
 
 /* Begin PBXFileReference section */
 		1D2708181B21936200C95571 /* HTWKcrViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HTWKcrViewController.xib; sourceTree = "<group>"; };
+		1D27081B1B21A09C00C95571 /* ExpeditionInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ExpeditionInfo.h; path = KCRHelper/Models/ExpeditionInfo.h; sourceTree = SOURCE_ROOT; };
+		1D27081C1B21A09C00C95571 /* ExpeditionInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ExpeditionInfo.m; path = KCRHelper/Models/ExpeditionInfo.m; sourceTree = SOURCE_ROOT; };
+		1D27081E1B21A27C00C95571 /* ExpeditionKind.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ExpeditionKind.h; path = KCRHelper/Models/ExpeditionKind.h; sourceTree = SOURCE_ROOT; };
+		1D27081F1B21A27C00C95571 /* ExpeditionKind.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ExpeditionKind.m; path = KCRHelper/Models/ExpeditionKind.m; sourceTree = SOURCE_ROOT; };
 		1D9AAC901B20BCDA00A190E2 /* KCRHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KCRHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D9AAC941B20BCDA00A190E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1D9AAC951B20BCDA00A190E2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -104,6 +110,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1D27081A1B219FE000C95571 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1D27081B1B21A09C00C95571 /* ExpeditionInfo.h */,
+				1D27081C1B21A09C00C95571 /* ExpeditionInfo.m */,
+				1D27081E1B21A27C00C95571 /* ExpeditionKind.h */,
+				1D27081F1B21A27C00C95571 /* ExpeditionKind.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		1D9AAC871B20BCDA00A190E2 = {
 			isa = PBXGroup;
 			children = (
@@ -180,6 +197,7 @@
 		1DDA50891B2182BA009319FB /* ExpeditionInfo */ = {
 			isa = PBXGroup;
 			children = (
+				1D27081A1B219FE000C95571 /* Model */,
 				1DDA508A1B2184D6009319FB /* ExpeditionsListViewConreoller.h */,
 				1DDA508B1B2184D6009319FB /* ExpeditionsListViewConreoller.m */,
 				1DDA508C1B2184D6009319FB /* ExpeditionsListViewConreoller.xib */,
@@ -384,8 +402,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D27081D1B21A09C00C95571 /* ExpeditionInfo.m in Sources */,
 				9AE46DE41B213C0D00C13EA9 /* EquipInfoTableViewController.m in Sources */,
 				9A0BB5AB1B2146F80084D30C /* EquipInfoListViewController.m in Sources */,
+				1D2708201B21A27C00C95571 /* ExpeditionKind.m in Sources */,
 				9A0BB5AF1B2147100084D30C /* EquipInfoDetailViewController.m in Sources */,
 				9AE46DDA1B2130B000C13EA9 /* HTWKcrViewController.m in Sources */,
 				1DDA508D1B2184D6009319FB /* ExpeditionsListViewConreoller.m in Sources */,

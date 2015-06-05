@@ -9,7 +9,7 @@
 #import "ExpeditionsListViewConreoller.h"
 
 @interface ExpeditionsListViewConreoller ()
-
+@property(nonatomic,strong) NSDictionary *expeditionList;
 @end
 
 @implementation ExpeditionsListViewConreoller
@@ -18,6 +18,13 @@
     [super viewDidLoad];
     self.title = @"远征一览";
     self.navigationController.navigationBarHidden = NO;
+    self.expeditionList = @{@"编成类":@1,
+                            @"出击类":@2,
+                            @"远征类":@3,
+                            @"工厂类":@4,
+                            @"演习类":@5,
+                            @"补给/入渠类":@6,
+                            @"改装类":@7};
     
 }
 
@@ -31,7 +38,7 @@
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
 #warning Potentially incomplete method implementation.
     // Return the number of sections.
-    return 7;
+    return [self.expeditionList count];
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
@@ -40,11 +47,17 @@
     return 2;
 }
 
+//section标题名
+- (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section{
+    return [[self.expeditionList allKeys]objectAtIndex:section];
+}
+
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"ExpeditionCell" forIndexPath:indexPath];
-    
-    // Configure the cell...
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"UITableViewCell"];
+    if (cell == nil) {
+        cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"UITableViewCell"];
+    }
     
     return cell;
 }

@@ -9,5 +9,8 @@
 #import <Foundation/Foundation.h>
 
 @interface ExpeditionInfo : NSObject
-
+@property(nonatomic,strong)NSString *name;
+@property(nonatomic,strong)NSString *require;
+@property(nonatomic,strong)NSMutableDictionary *rescource;
+@property(nonatomic,strong)NSString *rewards;
 @end

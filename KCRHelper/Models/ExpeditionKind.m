@@ -7,7 +7,18 @@
 //
 
 #import "ExpeditionKind.h"
-
+#import "ExpeditionInfo.h"
 @implementation ExpeditionKind
+- (instancetype)init
+{
+    self = [super init];
+    if (self) {
+        _listofKind = [NSMutableArray new];
+    }
+    return self;
+}
 
+- (void)addExpedition:(ExpeditionInfo *)expeditionInfo{
+    [self.listofKind addObject:expeditionInfo];
+}
 @end

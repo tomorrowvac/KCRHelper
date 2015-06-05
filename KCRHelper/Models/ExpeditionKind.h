@@ -9,5 +9,5 @@
 #import <Foundation/Foundation.h>
 
 @interface ExpeditionKind : NSObject
-
+@property(nonatomic,strong)NSMutableArray *listofKind;
 @end
