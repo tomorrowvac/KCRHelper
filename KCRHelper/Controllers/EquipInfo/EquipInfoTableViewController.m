@@ -14,7 +14,8 @@
 
 @property NSArray* equipList;
 @property NSArray* equipList1;
-@property NSDictionary* expeditionList;
+//@property NSDictionary* equipmentList;
+@property NSArray* eList;//存储炮种类的
 @end
 
 @implementation EquipInfoTableViewController
@@ -29,9 +30,7 @@
     //装备数据：小口径单装炮
     NSString* equipPath1 = [[NSBundle mainBundle]pathForResource:@"EquipList_mm_4_6" ofType:@"plist"];
     self.equipList1 = [NSArray arrayWithContentsOfFile:equipPath1];
-    self.expeditionList = @{@"小口径主砲":@0,
-                            @"中口径主砲":@1,
-                            @"大口径主炮":@2};
+    self.eList = @[@"小口径主炮",@"中口径主炮",@"大口径主炮",@"特大口径主炮"];
     
     //获取nib文件，注册
     UINib* eNib  = [UINib nibWithNibName:@"EquipTableViewCell" bundle:nil];
@@ -47,7 +46,7 @@
 #pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-    return [self.expeditionList count];
+    return self.eList.count;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
@@ -80,7 +79,7 @@
 
 //section标题名
 - (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section{
-    return [[self.expeditionList allKeys]objectAtIndex:section];
+    return [self.eList objectAtIndex:section];
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
