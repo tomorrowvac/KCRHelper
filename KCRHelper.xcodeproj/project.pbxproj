@@ -8,6 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		1D2708191B21936200C95571 /* HTWKcrViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D2708181B21936200C95571 /* HTWKcrViewController.xib */; };
+		1D6D3E111B22A69700DC5432 /* expedition_z1.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1D6D3E101B22A69700DC5432 /* expedition_z1.plist */; };
+		1D6D3E131B22A80E00DC5432 /* expedition_z2.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1D6D3E121B22A80E00DC5432 /* expedition_z2.plist */; };
+		1D6D3E151B22A81700DC5432 /* expedition_z3.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1D6D3E141B22A81700DC5432 /* expedition_z3.plist */; };
+		1D6D3E171B22A81F00DC5432 /* expedition_z4.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1D6D3E161B22A81F00DC5432 /* expedition_z4.plist */; };
+		1D6D3E191B22A82C00DC5432 /* expedition_z5.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1D6D3E181B22A82C00DC5432 /* expedition_z5.plist */; };
+		1D6D3E1D1B22B41400DC5432 /* ExpeditionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6D3E1B1B22B41400DC5432 /* ExpeditionCell.m */; };
+		1D6D3E1E1B22B41400DC5432 /* ExpeditionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D6D3E1C1B22B41400DC5432 /* ExpeditionCell.xib */; };
+		1D6D3E231B22B73C00DC5432 /* ExpeditonDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6D3E211B22B73C00DC5432 /* ExpeditonDetailController.m */; };
+		1D6D3E241B22B73C00DC5432 /* ExpeditonDetailController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D6D3E221B22B73C00DC5432 /* ExpeditonDetailController.xib */; };
+		1D6D3E261B22B81400DC5432 /* image 141.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D6D3E251B22B81400DC5432 /* image 141.png */; };
 		1D9AAC961B20BCDA00A190E2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D9AAC951B20BCDA00A190E2 /* main.m */; };
 		1D9AAC991B20BCDA00A190E2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D9AAC981B20BCDA00A190E2 /* AppDelegate.m */; };
 		1D9AACA11B20BCDA00A190E2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D9AACA01B20BCDA00A190E2 /* Images.xcassets */; };
@@ -52,6 +62,18 @@
 
 /* Begin PBXFileReference section */
 		1D2708181B21936200C95571 /* HTWKcrViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HTWKcrViewController.xib; sourceTree = "<group>"; };
+		1D6D3E101B22A69700DC5432 /* expedition_z1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = expedition_z1.plist; sourceTree = "<group>"; };
+		1D6D3E121B22A80E00DC5432 /* expedition_z2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = expedition_z2.plist; sourceTree = "<group>"; };
+		1D6D3E141B22A81700DC5432 /* expedition_z3.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = expedition_z3.plist; sourceTree = "<group>"; };
+		1D6D3E161B22A81F00DC5432 /* expedition_z4.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = expedition_z4.plist; sourceTree = "<group>"; };
+		1D6D3E181B22A82C00DC5432 /* expedition_z5.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = expedition_z5.plist; sourceTree = "<group>"; };
+		1D6D3E1A1B22B41400DC5432 /* ExpeditionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ExpeditionCell.h; path = ExpeditionInfo/ExpeditionCell.h; sourceTree = "<group>"; };
+		1D6D3E1B1B22B41400DC5432 /* ExpeditionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ExpeditionCell.m; path = ExpeditionInfo/ExpeditionCell.m; sourceTree = "<group>"; };
+		1D6D3E1C1B22B41400DC5432 /* ExpeditionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ExpeditionCell.xib; path = ExpeditionInfo/ExpeditionCell.xib; sourceTree = "<group>"; };
+		1D6D3E201B22B73C00DC5432 /* ExpeditonDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ExpeditonDetailController.h; path = ExpeditionInfo/ExpeditonDetailController.h; sourceTree = "<group>"; };
+		1D6D3E211B22B73C00DC5432 /* ExpeditonDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ExpeditonDetailController.m; path = ExpeditionInfo/ExpeditonDetailController.m; sourceTree = "<group>"; };
+		1D6D3E221B22B73C00DC5432 /* ExpeditonDetailController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ExpeditonDetailController.xib; path = ExpeditionInfo/ExpeditonDetailController.xib; sourceTree = "<group>"; };
+		1D6D3E251B22B81400DC5432 /* image 141.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image 141.png"; sourceTree = "<group>"; };
 		1D9AAC901B20BCDA00A190E2 /* KCRHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KCRHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D9AAC941B20BCDA00A190E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1D9AAC951B20BCDA00A190E2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -112,6 +134,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1D6D3E0F1B22A58900DC5432 /* ExpeditionInfo */ = {
+			isa = PBXGroup;
+			children = (
+				1D6D3E101B22A69700DC5432 /* expedition_z1.plist */,
+				1D6D3E121B22A80E00DC5432 /* expedition_z2.plist */,
+				1D6D3E141B22A81700DC5432 /* expedition_z3.plist */,
+				1D6D3E161B22A81F00DC5432 /* expedition_z4.plist */,
+				1D6D3E181B22A82C00DC5432 /* expedition_z5.plist */,
+			);
+			name = ExpeditionInfo;
+			sourceTree = "<group>";
+		};
+		1D6D3E1F1B22B48900DC5432 /* expeditionPic */ = {
+			isa = PBXGroup;
+			children = (
+				1D6D3E251B22B81400DC5432 /* image 141.png */,
+			);
+			name = expeditionPic;
+			sourceTree = "<group>";
+		};
 		1D9AAC871B20BCDA00A190E2 = {
 			isa = PBXGroup;
 			children = (
@@ -192,6 +234,12 @@
 				1DDA508A1B2184D6009319FB /* ExpeditionsListViewConreoller.h */,
 				1DDA508B1B2184D6009319FB /* ExpeditionsListViewConreoller.m */,
 				1DDA508C1B2184D6009319FB /* ExpeditionsListViewConreoller.xib */,
+				1D6D3E1A1B22B41400DC5432 /* ExpeditionCell.h */,
+				1D6D3E1B1B22B41400DC5432 /* ExpeditionCell.m */,
+				1D6D3E1C1B22B41400DC5432 /* ExpeditionCell.xib */,
+				1D6D3E201B22B73C00DC5432 /* ExpeditonDetailController.h */,
+				1D6D3E211B22B73C00DC5432 /* ExpeditonDetailController.m */,
+				1D6D3E221B22B73C00DC5432 /* ExpeditonDetailController.xib */,
 			);
 			name = ExpeditionInfo;
 			sourceTree = "<group>";
@@ -199,6 +247,7 @@
 		1DDA508F1B218550009319FB /* rescources */ = {
 			isa = PBXGroup;
 			children = (
+				1D6D3E1F1B22B48900DC5432 /* expeditionPic */,
 				9A45ADE51B2285B200004D42 /* equipPic */,
 				1DDA50911B218570009319FB /* UI */,
 				1DDA50901B21855D009319FB /* launchScreen */,
@@ -237,6 +286,7 @@
 		9A0BB5FB1B21CC5F0084D30C /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				1D6D3E0F1B22A58900DC5432 /* ExpeditionInfo */,
 				9A0BB5FC1B21D4FD0084D30C /* EquipInfo */,
 			);
 			name = Models;
@@ -385,19 +435,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				1DDA509B1B2185BC009319FB /* 开发建材.png in Resources */,
+				1D6D3E1E1B22B41400DC5432 /* ExpeditionCell.xib in Resources */,
 				9A0BB5B01B2147100084D30C /* EquipInfoDetailViewController.xib in Resources */,
 				1DDA50A41B2185F3009319FB /* image 461.png in Resources */,
 				1DDA508E1B2184D6009319FB /* ExpeditionsListViewConreoller.xib in Resources */,
 				1DDA50AB1B218789009319FB /* logo.png in Resources */,
+				1D6D3E111B22A69700DC5432 /* expedition_z1.plist in Resources */,
 				9A0BB5FA1B21CC5A0084D30C /* EquipList_ssm_1_3.plist in Resources */,
 				1DDA50A91B218680009319FB /* 高速建造材.png in Resources */,
 				9A45ADE41B2285AD00004D42 /* 12cm单装炮.png in Resources */,
 				9A0BB5FE1B21DEBE0084D30C /* EquipList_mm_4_6.plist in Resources */,
 				1DDA50981B21859E009319FB /* 钢0.png in Resources */,
 				1DDA50991B21859E009319FB /* 铝0.png in Resources */,
+				1D6D3E241B22B73C00DC5432 /* ExpeditonDetailController.xib in Resources */,
+				1D6D3E171B22A81F00DC5432 /* expedition_z4.plist in Resources */,
 				1DDA50971B21859E009319FB /* 弹0.png in Resources */,
 				1DDA50AD1B21878E009319FB /* bg-body.jpg in Resources */,
+				1D6D3E261B22B81400DC5432 /* image 141.png in Resources */,
 				1D9AACA41B20BCDA00A190E2 /* LaunchScreen.xib in Resources */,
+				1D6D3E131B22A80E00DC5432 /* expedition_z2.plist in Resources */,
 				1D2708191B21936200C95571 /* HTWKcrViewController.xib in Resources */,
 				1DDA50AF1B2187A4009319FB /* image 56.png in Resources */,
 				9A45ADEA1B22923900004D42 /* EquipTableViewCell.xib in Resources */,
@@ -405,7 +461,9 @@
 				1DDA50A81B218680009319FB /* 高速修复材.png in Resources */,
 				1DDA50961B21859E009319FB /* 油0.png in Resources */,
 				1DDA50A21B2185F3009319FB /* image 456.png in Resources */,
+				1D6D3E191B22A82C00DC5432 /* expedition_z5.plist in Resources */,
 				1DDA50A31B2185F3009319FB /* image 459.png in Resources */,
+				1D6D3E151B22A81700DC5432 /* expedition_z3.plist in Resources */,
 				1D9AACA11B20BCDA00A190E2 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -430,6 +488,8 @@
 				9AE46DDA1B2130B000C13EA9 /* HTWKcrViewController.m in Sources */,
 				1DDA508D1B2184D6009319FB /* ExpeditionsListViewConreoller.m in Sources */,
 				1D9AAC991B20BCDA00A190E2 /* AppDelegate.m in Sources */,
+				1D6D3E231B22B73C00DC5432 /* ExpeditonDetailController.m in Sources */,
+				1D6D3E1D1B22B41400DC5432 /* ExpeditionCell.m in Sources */,
 				1D9AAC961B20BCDA00A190E2 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
