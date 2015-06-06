@@ -7,13 +7,9 @@
 //
 
 #import "ExpeditionsListViewConreoller.h"
-#import "ExpeditionCell.h"
-#import "ExpeditonDetailController.h"
 
 @interface ExpeditionsListViewConreoller ()
-@property NSArray *expeditionList1;
 
-@property NSDictionary *ExpeditionTList;
 @end
 
 @implementation ExpeditionsListViewConreoller
@@ -22,17 +18,7 @@
     [super viewDidLoad];
     self.title = @"远征一览";
     self.navigationController.navigationBarHidden = NO;
-    NSString *expeditionPath1 = [[NSBundle mainBundle]pathForResource:@"expedition_z1" ofType:@"plist"];
-    self.expeditionList1 = [NSArray arrayWithContentsOfFile:expeditionPath1];
     
-    self.ExpeditionTList = @{@"镇守府海域":@1};
-//    @"南西诸岛海域":@2,
-//    @"北方海域":@3,
-//    @"西方海域":@4,
-//    @"南方海域":@5,
-    
-    UINib *expdCell = [UINib nibWithNibName:@"ExpeditionCell" bundle:nil];
-    [self.tableView registerNib:expdCell forCellReuseIdentifier:@"ExpeditionCell"];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -43,25 +29,46 @@
 #pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-    return self.ExpeditionTList.count;
+#warning Potentially incomplete method implementation.
+    // Return the number of sections.
+    return 7;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return self.expeditionList1.count;
-}
-- (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section{
-    return [[self.ExpeditionTList allKeys]objectAtIndex:section];
+#warning Incomplete method implementation.
+    // Return the number of rows in the section.
+    return 2;
 }
 
+
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    ExpeditionCell *cell = [tableView dequeueReusableCellWithIdentifier:@"ExpeditionCell" forIndexPath:indexPath];
-    if (indexPath.section == 1) {
-        cell.expeditionLabel.text = self.expeditionList1[indexPath.row][@"eName"];
-    }
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"ExpeditionCell" forIndexPath:indexPath];
+    
+    // Configure the cell...
+    
     return cell;
 }
 
 
+/*
+// Override to support conditional editing of the table view.
+- (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath {
+    // Return NO if you do not want the specified item to be editable.
+    return YES;
+}
+*/
+
+/*
+// Override to support editing the table view.
+- (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath {
+    if (editingStyle == UITableViewCellEditingStyleDelete) {
+        // Delete the row from the data source
+        [tableView deleteRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationFade];
+    } else if (editingStyle == UITableViewCellEditingStyleInsert) {
+        // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
+    }   
+}
+*/
 
 /*
 // Override to support rearranging the table view.
