@@ -8,6 +8,7 @@
 
 #import "EquipInfoTableViewController.h"
 #import "EquipInfoDetailViewController.h"
+#import "EquipTableViewCell.h"
 
 @interface EquipInfoTableViewController ()
 
@@ -28,11 +29,14 @@
     //装备数据：小口径单装炮
     NSString* equipPath1 = [[NSBundle mainBundle]pathForResource:@"EquipList_mm_4_6" ofType:@"plist"];
     self.equipList1 = [NSArray arrayWithContentsOfFile:equipPath1];
-    
-    
     self.expeditionList = @{@"小口径主砲":@0,
                             @"中口径主砲":@1};
     
+    //获取nib文件，注册
+    UINib* eNib  = [UINib nibWithNibName:@"EquipTableViewCell" bundle:nil];
+    [self.tableView registerNib:eNib forCellReuseIdentifier:@"EquipTableViewCell"];
+    
+
 }
 
 - (void)didReceiveMemoryWarning {
@@ -51,17 +55,27 @@
 
 #pragma mark - Table view data source
 - (UITableViewCell*)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
-    UITableViewCell* cell  = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleValue1 reuseIdentifier:@"UITableViewCellStyleValue1"];
+    EquipTableViewCell* equipCell = [tableView dequeueReusableCellWithIdentifier:@"EquipTableViewCell" forIndexPath:indexPath];
     
     if (indexPath.section == 0) {
-        cell.textLabel.text = self.equipList[indexPath.row][@"eName"];
+        equipCell.equipName.text = self.equipList[indexPath.row][@"eName"];
     }else if (indexPath.section == 1) {
-        cell.textLabel.text = self.equipList1[indexPath.row][@"eName"];
+        equipCell.equipName.text = self.equipList1[indexPath.row][@"eName"];
     }
     
+    NSString* fileName = equipCell.equipName.text;
+    NSString* imagePath = [[NSBundle mainBundle] pathForResource:fileName ofType:@"png"];
+    UIImage *headImage = [[UIImage alloc] initWithContentsOfFile:imagePath];
+    equipCell.headImage.image = headImage;
     
-    return cell;
+    return equipCell;
 }
+
+//设置行高
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
+    return 65;
+}
+
 
 //section标题名
 - (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section{

@@ -34,6 +34,8 @@
 		9A0BB5FA1B21CC5A0084D30C /* EquipList_ssm_1_3.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9A0BB5F91B21CC5A0084D30C /* EquipList_ssm_1_3.plist */; };
 		9A0BB5FE1B21DEBE0084D30C /* EquipList_mm_4_6.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9A0BB5FD1B21DEBE0084D30C /* EquipList_mm_4_6.plist */; };
 		9A45ADE41B2285AD00004D42 /* 12cm单装炮.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A45ADE31B2285AD00004D42 /* 12cm单装炮.png */; };
+		9A45ADE91B22923900004D42 /* EquipTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A45ADE71B22923900004D42 /* EquipTableViewCell.m */; };
+		9A45ADEA1B22923900004D42 /* EquipTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A45ADE81B22923900004D42 /* EquipTableViewCell.xib */; };
 		9AE46DDA1B2130B000C13EA9 /* HTWKcrViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AE46DD81B2130B000C13EA9 /* HTWKcrViewController.m */; };
 		9AE46DE41B213C0D00C13EA9 /* EquipInfoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AE46DE31B213C0D00C13EA9 /* EquipInfoTableViewController.m */; };
 /* End PBXBuildFile section */
@@ -83,6 +85,9 @@
 		9A0BB5F91B21CC5A0084D30C /* EquipList_ssm_1_3.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = EquipList_ssm_1_3.plist; sourceTree = "<group>"; };
 		9A0BB5FD1B21DEBE0084D30C /* EquipList_mm_4_6.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = EquipList_mm_4_6.plist; sourceTree = "<group>"; };
 		9A45ADE31B2285AD00004D42 /* 12cm单装炮.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "12cm单装炮.png"; sourceTree = "<group>"; };
+		9A45ADE61B22923900004D42 /* EquipTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EquipTableViewCell.h; sourceTree = "<group>"; };
+		9A45ADE71B22923900004D42 /* EquipTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EquipTableViewCell.m; sourceTree = "<group>"; };
+		9A45ADE81B22923900004D42 /* EquipTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EquipTableViewCell.xib; sourceTree = "<group>"; };
 		9AE46DD71B2130B000C13EA9 /* HTWKcrViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTWKcrViewController.h; sourceTree = "<group>"; };
 		9AE46DD81B2130B000C13EA9 /* HTWKcrViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTWKcrViewController.m; sourceTree = "<group>"; };
 		9AE46DE21B213C0D00C13EA9 /* EquipInfoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EquipInfoTableViewController.h; sourceTree = "<group>"; };
@@ -275,6 +280,9 @@
 			children = (
 				9AE46DE21B213C0D00C13EA9 /* EquipInfoTableViewController.h */,
 				9AE46DE31B213C0D00C13EA9 /* EquipInfoTableViewController.m */,
+				9A45ADE61B22923900004D42 /* EquipTableViewCell.h */,
+				9A45ADE71B22923900004D42 /* EquipTableViewCell.m */,
+				9A45ADE81B22923900004D42 /* EquipTableViewCell.xib */,
 				9A0BB5AC1B2147100084D30C /* EquipInfoDetailViewController.h */,
 				9A0BB5AD1B2147100084D30C /* EquipInfoDetailViewController.m */,
 				9A0BB5AE1B2147100084D30C /* EquipInfoDetailViewController.xib */,
@@ -392,6 +400,7 @@
 				1D9AACA41B20BCDA00A190E2 /* LaunchScreen.xib in Resources */,
 				1D2708191B21936200C95571 /* HTWKcrViewController.xib in Resources */,
 				1DDA50AF1B2187A4009319FB /* image 56.png in Resources */,
+				9A45ADEA1B22923900004D42 /* EquipTableViewCell.xib in Resources */,
 				1DDA50A51B2185F3009319FB /* image 463.png in Resources */,
 				1DDA50A81B218680009319FB /* 高速修复材.png in Resources */,
 				1DDA50961B21859E009319FB /* 油0.png in Resources */,
@@ -415,6 +424,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A45ADE91B22923900004D42 /* EquipTableViewCell.m in Sources */,
 				9AE46DE41B213C0D00C13EA9 /* EquipInfoTableViewController.m in Sources */,
 				9A0BB5AF1B2147100084D30C /* EquipInfoDetailViewController.m in Sources */,
 				9AE46DDA1B2130B000C13EA9 /* HTWKcrViewController.m in Sources */,
