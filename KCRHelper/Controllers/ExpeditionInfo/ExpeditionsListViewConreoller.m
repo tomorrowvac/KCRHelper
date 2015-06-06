@@ -10,10 +10,14 @@
 #import "ExpeditionCell.h"
 #import "ExpeditonDetailController.h"
 
-@interface ExpeditionsListViewConreoller ()
+@interface ExpeditionsListViewConreoller ()<UITableViewDataSource,UITableViewDelegate>
 @property NSArray *expeditionList1;
+@property NSArray *expeditionList2;
+@property NSArray *expeditionList3;
+@property NSArray *expeditionList4;
+@property NSArray *expeditionList5;
 
-@property NSDictionary *ExpeditionTList;
+@property NSArray *ExpeditionTList;
 @end
 
 @implementation ExpeditionsListViewConreoller
@@ -24,12 +28,20 @@
     self.navigationController.navigationBarHidden = NO;
     NSString *expeditionPath1 = [[NSBundle mainBundle]pathForResource:@"expedition_z1" ofType:@"plist"];
     self.expeditionList1 = [NSArray arrayWithContentsOfFile:expeditionPath1];
+    NSString *expeditionPath2 = [[NSBundle mainBundle]pathForResource:@"expedition_z2" ofType:@"plist"];
+    self.expeditionList2 = [NSArray arrayWithContentsOfFile:expeditionPath2];
+    NSString *expeditionPath3 = [[NSBundle mainBundle]pathForResource:@"expedition_z3" ofType:@"plist"];
+    self.expeditionList3 = [NSArray arrayWithContentsOfFile:expeditionPath3];
+    NSString *expeditionPath4 = [[NSBundle mainBundle]pathForResource:@"expedition_z4" ofType:@"plist"];
+    self.expeditionList4 = [NSArray arrayWithContentsOfFile:expeditionPath4];
+    NSString *expeditionPath5 = [[NSBundle mainBundle]pathForResource:@"expedition_z5" ofType:@"plist"];
+    self.expeditionList5 = [NSArray arrayWithContentsOfFile:expeditionPath5];
     
-    self.ExpeditionTList = @{@"镇守府海域":@1};
-//    @"南西诸岛海域":@2,
-//    @"北方海域":@3,
-//    @"西方海域":@4,
-//    @"南方海域":@5,
+    self.ExpeditionTList = @[@"镇守府海域",@"南西诸岛海域",@"北方海域",@"西方海域",@"南方海域"];
+//    @"南西诸岛海域"
+//    @"北方海域"
+//    @"西方海域"
+//    @"南方海域"
     
     UINib *expdCell = [UINib nibWithNibName:@"ExpeditionCell" bundle:nil];
     [self.tableView registerNib:expdCell forCellReuseIdentifier:@"ExpeditionCell"];
@@ -47,51 +59,49 @@
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return self.expeditionList1.count;
+    if (section == 0) {
+        return self.expeditionList1.count;
+    }else if (section == 1){
+        return self.expeditionList2.count;
+    }else if (section == 2){
+        return self.expeditionList3.count;
+    }else if (section == 3){
+        return self.expeditionList4.count;
+    }else
+        return self.expeditionList5.count;
+    return 0;
 }
 - (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section{
-    return [[self.ExpeditionTList allKeys]objectAtIndex:section];
+    return [self.ExpeditionTList objectAtIndex:section];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     ExpeditionCell *cell = [tableView dequeueReusableCellWithIdentifier:@"ExpeditionCell" forIndexPath:indexPath];
-    if (indexPath.section == 1) {
+    if (indexPath.section == 0) {
         cell.expeditionLabel.text = self.expeditionList1[indexPath.row][@"eName"];
+    }else if (indexPath.section == 1){
+        cell.expeditionLabel.text = self.expeditionList2[indexPath.row][@"eName"];
+    }else if (indexPath.section == 2){
+        cell.expeditionLabel.text = self.expeditionList3[indexPath.row][@"eName"];
+    }else if (indexPath.section == 3){
+        cell.expeditionLabel.text = self.expeditionList4[indexPath.row][@"eName"];
+    }else if (indexPath.section == 4){
+        cell.expeditionLabel.text = self.expeditionList5[indexPath.row][@"eName"];
     }
     return cell;
 }
-
-
-
-/*
-// Override to support rearranging the table view.
-- (void)tableView:(UITableView *)tableView moveRowAtIndexPath:(NSIndexPath *)fromIndexPath toIndexPath:(NSIndexPath *)toIndexPath {
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
+    return 65;
 }
-*/
 
-/*
-// Override to support conditional rearranging of the table view.
-- (BOOL)tableView:(UITableView *)tableView canMoveRowAtIndexPath:(NSIndexPath *)indexPath {
-    // Return NO if you do not want the item to be re-orderable.
-    return YES;
-}
-*/
-
-/*
 #pragma mark - Table view delegate
 
 // In a xib-based application, navigation from a table can be handled in -tableView:didSelectRowAtIndexPath:
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    // Navigation logic may go here, for example:
-    // Create the next view controller.
-    <#DetailViewController#> *detailViewController = [[<#DetailViewController#> alloc] initWithNibName:<#@"Nib name"#> bundle:nil];
-    
-    // Pass the selected object to the new view controller.
-    
-    // Push the view controller.
+    ExpeditonDetailController *detailViewController = [[ExpeditonDetailController alloc] initWithNibName:@"ExpeditionDetailController" bundle:nil];
     [self.navigationController pushViewController:detailViewController animated:YES];
 }
-*/
+
 
 /*
 #pragma mark - Navigation
