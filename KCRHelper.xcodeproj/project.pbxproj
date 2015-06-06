@@ -33,6 +33,7 @@
 		9A0BB5B01B2147100084D30C /* EquipInfoDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A0BB5AE1B2147100084D30C /* EquipInfoDetailViewController.xib */; };
 		9A0BB5FA1B21CC5A0084D30C /* EquipList_ssm_1_3.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9A0BB5F91B21CC5A0084D30C /* EquipList_ssm_1_3.plist */; };
 		9A0BB5FE1B21DEBE0084D30C /* EquipList_mm_4_6.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9A0BB5FD1B21DEBE0084D30C /* EquipList_mm_4_6.plist */; };
+		9A45ADE41B2285AD00004D42 /* 12cm单装炮.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A45ADE31B2285AD00004D42 /* 12cm单装炮.png */; };
 		9AE46DDA1B2130B000C13EA9 /* HTWKcrViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AE46DD81B2130B000C13EA9 /* HTWKcrViewController.m */; };
 		9AE46DE41B213C0D00C13EA9 /* EquipInfoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AE46DE31B213C0D00C13EA9 /* EquipInfoTableViewController.m */; };
 /* End PBXBuildFile section */
@@ -81,6 +82,7 @@
 		9A0BB5AE1B2147100084D30C /* EquipInfoDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EquipInfoDetailViewController.xib; sourceTree = "<group>"; };
 		9A0BB5F91B21CC5A0084D30C /* EquipList_ssm_1_3.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = EquipList_ssm_1_3.plist; sourceTree = "<group>"; };
 		9A0BB5FD1B21DEBE0084D30C /* EquipList_mm_4_6.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = EquipList_mm_4_6.plist; sourceTree = "<group>"; };
+		9A45ADE31B2285AD00004D42 /* 12cm单装炮.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "12cm单装炮.png"; sourceTree = "<group>"; };
 		9AE46DD71B2130B000C13EA9 /* HTWKcrViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTWKcrViewController.h; sourceTree = "<group>"; };
 		9AE46DD81B2130B000C13EA9 /* HTWKcrViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTWKcrViewController.m; sourceTree = "<group>"; };
 		9AE46DE21B213C0D00C13EA9 /* EquipInfoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EquipInfoTableViewController.h; sourceTree = "<group>"; };
@@ -192,6 +194,7 @@
 		1DDA508F1B218550009319FB /* rescources */ = {
 			isa = PBXGroup;
 			children = (
+				9A45ADE51B2285B200004D42 /* equipPic */,
 				1DDA50911B218570009319FB /* UI */,
 				1DDA50901B21855D009319FB /* launchScreen */,
 			);
@@ -241,6 +244,14 @@
 				9A0BB5FD1B21DEBE0084D30C /* EquipList_mm_4_6.plist */,
 			);
 			name = EquipInfo;
+			sourceTree = "<group>";
+		};
+		9A45ADE51B2285B200004D42 /* equipPic */ = {
+			isa = PBXGroup;
+			children = (
+				9A45ADE31B2285AD00004D42 /* 12cm单装炮.png */,
+			);
+			name = equipPic;
 			sourceTree = "<group>";
 		};
 		9AE46DD61B21303500C13EA9 /* Controllers */ = {
@@ -372,6 +383,7 @@
 				1DDA50AB1B218789009319FB /* logo.png in Resources */,
 				9A0BB5FA1B21CC5A0084D30C /* EquipList_ssm_1_3.plist in Resources */,
 				1DDA50A91B218680009319FB /* 高速建造材.png in Resources */,
+				9A45ADE41B2285AD00004D42 /* 12cm单装炮.png in Resources */,
 				9A0BB5FE1B21DEBE0084D30C /* EquipList_mm_4_6.plist in Resources */,
 				1DDA50981B21859E009319FB /* 钢0.png in Resources */,
 				1DDA50991B21859E009319FB /* 铝0.png in Resources */,
@@ -526,6 +538,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Wei Feng Hou (5S9CUXNU3G)";
 				INFOPLIST_FILE = KCRHelper/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -537,6 +550,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Wei Feng Hou (5S9CUXNU3G)";
 				INFOPLIST_FILE = KCRHelper/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

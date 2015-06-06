@@ -4,87 +4,87 @@
 <array>
 	<dict>
 		<key>eName</key>
-		<string>12cm単装砲</string>
+		<string>12cm单装炮</string>
 		<key>eRarity</key>
-		<string></string>
+		<string>1</string>
 		<key>eFirepower</key>
-		<string></string>
+		<string>1</string>
 		<key>eThun</key>
-		<string></string>
+		<string>1</string>
 		<key>eBoom</key>
-		<string></string>
+		<string>1</string>
 		<key>eAntiair</key>
-		<string></string>
+		<string>1</string>
 		<key>eAntiSubm</key>
-		<string></string>
+		<string>1</string>
 		<key>eSearchEne</key>
-		<string></string>
+		<string>1</string>
 		<key>eAvoid</key>
-		<string></string>
+		<string>1</string>
 		<key>eHit</key>
-		<string></string>
+		<string>1</string>
 		<key>eRange</key>
-		<string></string>
+		<string>1</string>
 		<key>eNote</key>
-		<string></string>
+		<string>1</string>
 		<key>eEquble</key>
-		<string></string>
+		<string>1</string>
 	</dict>
 	<dict>
 		<key>eName</key>
 		<string>12.7cm連装砲</string>
 		<key>eRarity</key>
-		<string></string>
+		<string>1</string>
 		<key>eFirepower</key>
-		<string></string>
+		<string>1</string>
 		<key>eThun</key>
-		<string></string>
+		<string>1</string>
 		<key>eBoom</key>
-		<string></string>
+		<string>1</string>
 		<key>eAntiair</key>
-		<string></string>
+		<string>1</string>
 		<key>eAntiSubm</key>
-		<string></string>
+		<string>1</string>
 		<key>eSearchEne</key>
-		<string></string>
+		<string>1</string>
 		<key>eAvoid</key>
-		<string></string>
+		<string>1</string>
 		<key>eHit</key>
-		<string></string>
+		<string>1</string>
 		<key>eRange</key>
-		<string></string>
+		<string>1</string>
 		<key>eNote</key>
-		<string></string>
+		<string>1</string>
 		<key>eEquble</key>
-		<string></string>
+		<string>1</string>
 	</dict>
 	<dict>
 		<key>eName</key>
 		<string>10cm連装高角砲</string>
 		<key>eRarity</key>
-		<string></string>
+		<string>1</string>
 		<key>eFirepower</key>
-		<string></string>
+		<string>1</string>
 		<key>eThun</key>
-		<string></string>
+		<string>1</string>
 		<key>eBoom</key>
-		<string></string>
+		<string>1</string>
 		<key>eAntiair</key>
-		<string></string>
+		<string>1</string>
 		<key>eAntiSubm</key>
-		<string></string>
+		<string>1</string>
 		<key>eSearchEne</key>
-		<string></string>
+		<string>1</string>
 		<key>eAvoid</key>
-		<string></string>
+		<string>1</string>
 		<key>eHit</key>
-		<string></string>
+		<string>1</string>
 		<key>eRange</key>
-		<string></string>
+		<string>1</string>
 		<key>eNote</key>
-		<string></string>
+		<string>1</string>
 		<key>eEquble</key>
-		<string></string>
+		<string>1</string>
 	</dict>
 </array>
 </plist>
