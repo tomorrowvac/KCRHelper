@@ -4,7 +4,7 @@
 <array>
 	<dict>
 		<key>eName</key>
-		<string>14cm単装砲</string>
+		<string>14cm单装炮</string>
 		<key>eRarity</key>
 		<string></string>
 		<key>eFirepower</key>
@@ -32,7 +32,7 @@
 	</dict>
 	<dict>
 		<key>eName</key>
-		<string>15.5cm三連装砲</string>
+		<string>15.5cm三连装炮</string>
 		<key>eRarity</key>
 		<string></string>
 		<key>eFirepower</key>
@@ -60,7 +60,7 @@
 	</dict>
 	<dict>
 		<key>eName</key>
-		<string>20.3cm連装砲</string>
+		<string>20.3cm连装炮</string>
 		<key>eRarity</key>
 		<string></string>
 		<key>eFirepower</key>

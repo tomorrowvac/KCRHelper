@@ -36,6 +36,8 @@
 		9A45ADE41B2285AD00004D42 /* 12cm单装炮.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A45ADE31B2285AD00004D42 /* 12cm单装炮.png */; };
 		9A45ADE91B22923900004D42 /* EquipTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A45ADE71B22923900004D42 /* EquipTableViewCell.m */; };
 		9A45ADEA1B22923900004D42 /* EquipTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A45ADE81B22923900004D42 /* EquipTableViewCell.xib */; };
+		9A45ADED1B229E0700004D42 /* 10cm连装高射炮.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A45ADEB1B229E0700004D42 /* 10cm连装高射炮.png */; };
+		9A45ADEE1B229E0700004D42 /* 12.7cm连装炮.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A45ADEC1B229E0700004D42 /* 12.7cm连装炮.png */; };
 		9AE46DDA1B2130B000C13EA9 /* HTWKcrViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AE46DD81B2130B000C13EA9 /* HTWKcrViewController.m */; };
 		9AE46DE41B213C0D00C13EA9 /* EquipInfoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AE46DE31B213C0D00C13EA9 /* EquipInfoTableViewController.m */; };
 /* End PBXBuildFile section */
@@ -88,6 +90,8 @@
 		9A45ADE61B22923900004D42 /* EquipTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EquipTableViewCell.h; sourceTree = "<group>"; };
 		9A45ADE71B22923900004D42 /* EquipTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EquipTableViewCell.m; sourceTree = "<group>"; };
 		9A45ADE81B22923900004D42 /* EquipTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EquipTableViewCell.xib; sourceTree = "<group>"; };
+		9A45ADEB1B229E0700004D42 /* 10cm连装高射炮.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "10cm连装高射炮.png"; sourceTree = "<group>"; };
+		9A45ADEC1B229E0700004D42 /* 12.7cm连装炮.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "12.7cm连装炮.png"; sourceTree = "<group>"; };
 		9AE46DD71B2130B000C13EA9 /* HTWKcrViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTWKcrViewController.h; sourceTree = "<group>"; };
 		9AE46DD81B2130B000C13EA9 /* HTWKcrViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTWKcrViewController.m; sourceTree = "<group>"; };
 		9AE46DE21B213C0D00C13EA9 /* EquipInfoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EquipInfoTableViewController.h; sourceTree = "<group>"; };
@@ -255,6 +259,8 @@
 			isa = PBXGroup;
 			children = (
 				9A45ADE31B2285AD00004D42 /* 12cm单装炮.png */,
+				9A45ADEB1B229E0700004D42 /* 10cm连装高射炮.png */,
+				9A45ADEC1B229E0700004D42 /* 12.7cm连装炮.png */,
 			);
 			name = equipPic;
 			sourceTree = "<group>";
@@ -398,8 +404,10 @@
 				1DDA50971B21859E009319FB /* 弹0.png in Resources */,
 				1DDA50AD1B21878E009319FB /* bg-body.jpg in Resources */,
 				1D9AACA41B20BCDA00A190E2 /* LaunchScreen.xib in Resources */,
+				9A45ADED1B229E0700004D42 /* 10cm连装高射炮.png in Resources */,
 				1D2708191B21936200C95571 /* HTWKcrViewController.xib in Resources */,
 				1DDA50AF1B2187A4009319FB /* image 56.png in Resources */,
+				9A45ADEE1B229E0700004D42 /* 12.7cm连装炮.png in Resources */,
 				9A45ADEA1B22923900004D42 /* EquipTableViewCell.xib in Resources */,
 				1DDA50A51B2185F3009319FB /* image 463.png in Resources */,
 				1DDA50A81B218680009319FB /* 高速修复材.png in Resources */,

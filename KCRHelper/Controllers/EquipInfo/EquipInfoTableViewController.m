@@ -30,7 +30,8 @@
     NSString* equipPath1 = [[NSBundle mainBundle]pathForResource:@"EquipList_mm_4_6" ofType:@"plist"];
     self.equipList1 = [NSArray arrayWithContentsOfFile:equipPath1];
     self.expeditionList = @{@"小口径主砲":@0,
-                            @"中口径主砲":@1};
+                            @"中口径主砲":@1,
+                            @"大口径主炮":@2};
     
     //获取nib文件，注册
     UINib* eNib  = [UINib nibWithNibName:@"EquipTableViewCell" bundle:nil];

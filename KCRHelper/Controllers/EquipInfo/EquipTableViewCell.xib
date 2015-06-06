@@ -15,14 +15,14 @@
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="DKT-R7-HaV">
-                        <rect key="frame" x="16" y="2" width="60" height="60"/>
+                        <rect key="frame" x="8" y="2" width="60" height="60"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="60" id="Bst-MF-xIy"/>
                             <constraint firstAttribute="width" constant="60" id="uqN-S9-yxW"/>
                         </constraints>
                     </imageView>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T99-50-H1u">
-                        <rect key="frame" x="156" y="21" width="200" height="21"/>
+                        <rect key="frame" x="148" y="21" width="200" height="21"/>
                         <constraints>
                             <constraint firstAttribute="width" constant="200" id="P4s-3m-dr8"/>
                         </constraints>
@@ -34,7 +34,7 @@
                 <constraints>
                     <constraint firstItem="T99-50-H1u" firstAttribute="leading" secondItem="DKT-R7-HaV" secondAttribute="trailing" constant="80" id="BnJ-HS-fJt"/>
                     <constraint firstAttribute="centerY" secondItem="DKT-R7-HaV" secondAttribute="centerY" id="Y4c-RS-GMI"/>
-                    <constraint firstItem="DKT-R7-HaV" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="8" id="rDl-RV-6j0"/>
+                    <constraint firstItem="DKT-R7-HaV" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="rDl-RV-6j0"/>
                     <constraint firstAttribute="centerY" secondItem="T99-50-H1u" secondAttribute="centerY" id="s2o-ca-toy"/>
                 </constraints>
             </tableViewCellContentView>
