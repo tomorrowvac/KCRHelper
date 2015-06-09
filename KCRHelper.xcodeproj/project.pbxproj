@@ -39,6 +39,11 @@
 		9AE46DDA1B2130B000C13EA9 /* HTWKcrViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AE46DD81B2130B000C13EA9 /* HTWKcrViewController.m */; };
 		9AE46DE41B213C0D00C13EA9 /* EquipInfoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AE46DE31B213C0D00C13EA9 /* EquipInfoTableViewController.m */; };
 		9AECF2721B27326A0074E0FC /* EquipListAll.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9AECF2711B27326A0074E0FC /* EquipListAll.plist */; };
+		9AECF2741B2737950074E0FC /* 14cm单装炮.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AECF2731B2737950074E0FC /* 14cm单装炮.png */; };
+		9AECF2761B2737B20074E0FC /* 15.5cm三连装炮.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AECF2751B2737B20074E0FC /* 15.5cm三连装炮.png */; };
+		9AECF2781B2737C50074E0FC /* 20.3cm连装炮.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AECF2771B2737C50074E0FC /* 20.3cm连装炮.png */; };
+		9AECF27B1B2738E70074E0FC /* ShipInfoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AECF27A1B2738E70074E0FC /* ShipInfoTableViewController.m */; };
+		9AECF2801B27414D0074E0FC /* ShipipListAll.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9AECF27F1B27414D0074E0FC /* ShipipListAll.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -94,6 +99,12 @@
 		9AE46DE21B213C0D00C13EA9 /* EquipInfoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EquipInfoTableViewController.h; sourceTree = "<group>"; };
 		9AE46DE31B213C0D00C13EA9 /* EquipInfoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EquipInfoTableViewController.m; sourceTree = "<group>"; };
 		9AECF2711B27326A0074E0FC /* EquipListAll.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = EquipListAll.plist; sourceTree = "<group>"; };
+		9AECF2731B2737950074E0FC /* 14cm单装炮.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "14cm单装炮.png"; path = "../../../../Desktop/装备/equip/14cm单装炮.png"; sourceTree = "<group>"; };
+		9AECF2751B2737B20074E0FC /* 15.5cm三连装炮.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "15.5cm三连装炮.png"; path = "../../../../Desktop/装备/equip/15.5cm三连装炮.png"; sourceTree = "<group>"; };
+		9AECF2771B2737C50074E0FC /* 20.3cm连装炮.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "20.3cm连装炮.png"; path = "../../../../Desktop/装备/equip/20.3cm连装炮.png"; sourceTree = "<group>"; };
+		9AECF2791B2738E70074E0FC /* ShipInfoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ShipInfoTableViewController.h; path = KCRHelper/Controllers/ShipInfoTableViewController.h; sourceTree = SOURCE_ROOT; };
+		9AECF27A1B2738E70074E0FC /* ShipInfoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ShipInfoTableViewController.m; path = KCRHelper/Controllers/ShipInfoTableViewController.m; sourceTree = SOURCE_ROOT; };
+		9AECF27F1B27414D0074E0FC /* ShipipListAll.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ShipipListAll.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -240,6 +251,7 @@
 			isa = PBXGroup;
 			children = (
 				9A0BB5FC1B21D4FD0084D30C /* EquipInfo */,
+				9AECF27E1B273ADB0074E0FC /* ShipInfo */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -258,6 +270,9 @@
 				9A45ADE31B2285AD00004D42 /* 12cm单装炮.png */,
 				9A45ADEB1B229E0700004D42 /* 10cm连装高角炮.png */,
 				9A45ADEC1B229E0700004D42 /* 12.7cm连装炮.png */,
+				9AECF2731B2737950074E0FC /* 14cm单装炮.png */,
+				9AECF2751B2737B20074E0FC /* 15.5cm三连装炮.png */,
+				9AECF2771B2737C50074E0FC /* 20.3cm连装炮.png */,
 			);
 			name = equipPic;
 			sourceTree = "<group>";
@@ -303,8 +318,18 @@
 		9AE46DE11B213BAF00C13EA9 /* ShipInfo */ = {
 			isa = PBXGroup;
 			children = (
+				9AECF2791B2738E70074E0FC /* ShipInfoTableViewController.h */,
+				9AECF27A1B2738E70074E0FC /* ShipInfoTableViewController.m */,
 			);
 			path = ShipInfo;
+			sourceTree = "<group>";
+		};
+		9AECF27E1B273ADB0074E0FC /* ShipInfo */ = {
+			isa = PBXGroup;
+			children = (
+				9AECF27F1B27414D0074E0FC /* ShipipListAll.plist */,
+			);
+			name = ShipInfo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -395,15 +420,19 @@
 				1DDA50AB1B218789009319FB /* logo.png in Resources */,
 				1DDA50A91B218680009319FB /* 高速建造材.png in Resources */,
 				9A45ADE41B2285AD00004D42 /* 12cm单装炮.png in Resources */,
+				9AECF2801B27414D0074E0FC /* ShipipListAll.plist in Resources */,
 				1DDA50981B21859E009319FB /* 钢0.png in Resources */,
 				1DDA50991B21859E009319FB /* 铝0.png in Resources */,
 				1DDA50971B21859E009319FB /* 弹0.png in Resources */,
 				1DDA50AD1B21878E009319FB /* bg-body.jpg in Resources */,
 				1D9AACA41B20BCDA00A190E2 /* LaunchScreen.xib in Resources */,
 				9A45ADED1B229E0700004D42 /* 10cm连装高角炮.png in Resources */,
+				9AECF2741B2737950074E0FC /* 14cm单装炮.png in Resources */,
 				1D2708191B21936200C95571 /* HTWKcrViewController.xib in Resources */,
 				1DDA50AF1B2187A4009319FB /* image 56.png in Resources */,
 				9A45ADEE1B229E0700004D42 /* 12.7cm连装炮.png in Resources */,
+				9AECF2781B2737C50074E0FC /* 20.3cm连装炮.png in Resources */,
+				9AECF2761B2737B20074E0FC /* 15.5cm三连装炮.png in Resources */,
 				9A45ADEA1B22923900004D42 /* EquipTableViewCell.xib in Resources */,
 				1DDA50A51B2185F3009319FB /* image 463.png in Resources */,
 				1DDA50A81B218680009319FB /* 高速修复材.png in Resources */,
@@ -435,6 +464,7 @@
 				1DDA508D1B2184D6009319FB /* ExpeditionsListViewConreoller.m in Sources */,
 				1D9AAC991B20BCDA00A190E2 /* AppDelegate.m in Sources */,
 				1D9AAC961B20BCDA00A190E2 /* main.m in Sources */,
+				9AECF27B1B2738E70074E0FC /* ShipInfoTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

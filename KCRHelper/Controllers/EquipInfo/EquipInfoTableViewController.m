@@ -58,9 +58,25 @@
     EquipTableViewCell* equipCell = [tableView dequeueReusableCellWithIdentifier:@"EquipTableViewCell" forIndexPath:indexPath];
     
     if (indexPath.section == 0) {
-//        equipCell.equipName.text = self.equipList[indexPath.row][@"eName"];
         equipCell.equipName.text = self.equipList[0][indexPath.row][@"eName"];
+    }else if (indexPath.section == 1){
+    
+        
+        
+    }else if (indexPath.section == 2){
+        
+        
+        
+        
+    }else if (indexPath.section == 3){
+        
+        
+        
+        
     }
+    
+    
+    
     
     NSString* fileName = equipCell.equipName.text;
     NSString* imagePath = [[NSBundle mainBundle] pathForResource:fileName ofType:@"png"];
@@ -87,7 +103,22 @@
     
     if (indexPath.section == 0) {
                equipIDVC.equipment =self.equipList[0][indexPath.row];
+    }else if (indexPath.section == 1){
+        
+        
+        
+    }else if (indexPath.section == 2){
+        
+        
+        
+    }else if (indexPath.section == 3){
+        
+        
+        
     }
+    
+    
+    
     
     [self.navigationController pushViewController:equipIDVC animated:YES];
     

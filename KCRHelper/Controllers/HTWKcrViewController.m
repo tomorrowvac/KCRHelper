@@ -9,6 +9,7 @@
 #import "HTWKcrViewController.h"
 #import "EquipInfoTableViewController.h"
 #import "ExpeditionsListViewConreoller.h"
+#import "ShipInfoTableViewController.h"
 
 @interface HTWKcrViewController ()
 
@@ -40,7 +41,8 @@
 }
 
 - (IBAction)shipInfoClicked:(id)sender {
-    
+    ShipInfoTableViewController* shipInfoVC = [[ShipInfoTableViewController alloc]init];
+    [self.navigationController pushViewController:shipInfoVC animated:YES];
     
 }
 - (IBAction)shipFormularClicked:(id)sender {
