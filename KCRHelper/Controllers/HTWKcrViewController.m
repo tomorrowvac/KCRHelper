@@ -11,7 +11,10 @@
 #import "ExpeditionsListViewConreoller.h"
 #import "ShipInfoTableViewController.h"
 
+
+
 @interface HTWKcrViewController ()
+@property (weak, nonatomic) IBOutlet UIImageView *backImage;
 
 @end
 
@@ -20,8 +23,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.navigationController.navigationBarHidden = YES;
+    
+    
+    
+    
 
 }
+
 - (void)viewWillAppear:(BOOL)animated{
     self.navigationController.navigationBarHidden = YES;
 
