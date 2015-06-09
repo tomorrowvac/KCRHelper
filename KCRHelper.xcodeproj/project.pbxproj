@@ -31,8 +31,6 @@
 		1DDA50AF1B2187A4009319FB /* image 56.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDA50AE1B2187A4009319FB /* image 56.png */; };
 		9A0BB5AF1B2147100084D30C /* EquipInfoDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0BB5AD1B2147100084D30C /* EquipInfoDetailViewController.m */; };
 		9A0BB5B01B2147100084D30C /* EquipInfoDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A0BB5AE1B2147100084D30C /* EquipInfoDetailViewController.xib */; };
-		9A0BB5FA1B21CC5A0084D30C /* EquipList_ssm_1_3.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9A0BB5F91B21CC5A0084D30C /* EquipList_ssm_1_3.plist */; };
-		9A0BB5FE1B21DEBE0084D30C /* EquipList_mm_4_6.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9A0BB5FD1B21DEBE0084D30C /* EquipList_mm_4_6.plist */; };
 		9A45ADE41B2285AD00004D42 /* 12cm单装炮.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A45ADE31B2285AD00004D42 /* 12cm单装炮.png */; };
 		9A45ADE91B22923900004D42 /* EquipTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A45ADE71B22923900004D42 /* EquipTableViewCell.m */; };
 		9A45ADEA1B22923900004D42 /* EquipTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A45ADE81B22923900004D42 /* EquipTableViewCell.xib */; };
@@ -40,6 +38,7 @@
 		9A45ADEE1B229E0700004D42 /* 12.7cm连装炮.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A45ADEC1B229E0700004D42 /* 12.7cm连装炮.png */; };
 		9AE46DDA1B2130B000C13EA9 /* HTWKcrViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AE46DD81B2130B000C13EA9 /* HTWKcrViewController.m */; };
 		9AE46DE41B213C0D00C13EA9 /* EquipInfoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AE46DE31B213C0D00C13EA9 /* EquipInfoTableViewController.m */; };
+		9AECF2721B27326A0074E0FC /* EquipListAll.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9AECF2711B27326A0074E0FC /* EquipListAll.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,8 +83,6 @@
 		9A0BB5AC1B2147100084D30C /* EquipInfoDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EquipInfoDetailViewController.h; sourceTree = "<group>"; };
 		9A0BB5AD1B2147100084D30C /* EquipInfoDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EquipInfoDetailViewController.m; sourceTree = "<group>"; };
 		9A0BB5AE1B2147100084D30C /* EquipInfoDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EquipInfoDetailViewController.xib; sourceTree = "<group>"; };
-		9A0BB5F91B21CC5A0084D30C /* EquipList_ssm_1_3.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = EquipList_ssm_1_3.plist; sourceTree = "<group>"; };
-		9A0BB5FD1B21DEBE0084D30C /* EquipList_mm_4_6.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = EquipList_mm_4_6.plist; sourceTree = "<group>"; };
 		9A45ADE31B2285AD00004D42 /* 12cm单装炮.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "12cm单装炮.png"; sourceTree = "<group>"; };
 		9A45ADE61B22923900004D42 /* EquipTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EquipTableViewCell.h; sourceTree = "<group>"; };
 		9A45ADE71B22923900004D42 /* EquipTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EquipTableViewCell.m; sourceTree = "<group>"; };
@@ -96,6 +93,7 @@
 		9AE46DD81B2130B000C13EA9 /* HTWKcrViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTWKcrViewController.m; sourceTree = "<group>"; };
 		9AE46DE21B213C0D00C13EA9 /* EquipInfoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EquipInfoTableViewController.h; sourceTree = "<group>"; };
 		9AE46DE31B213C0D00C13EA9 /* EquipInfoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EquipInfoTableViewController.m; sourceTree = "<group>"; };
+		9AECF2711B27326A0074E0FC /* EquipListAll.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = EquipListAll.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -249,8 +247,7 @@
 		9A0BB5FC1B21D4FD0084D30C /* EquipInfo */ = {
 			isa = PBXGroup;
 			children = (
-				9A0BB5F91B21CC5A0084D30C /* EquipList_ssm_1_3.plist */,
-				9A0BB5FD1B21DEBE0084D30C /* EquipList_mm_4_6.plist */,
+				9AECF2711B27326A0074E0FC /* EquipListAll.plist */,
 			);
 			name = EquipInfo;
 			sourceTree = "<group>";
@@ -394,11 +391,10 @@
 				9A0BB5B01B2147100084D30C /* EquipInfoDetailViewController.xib in Resources */,
 				1DDA50A41B2185F3009319FB /* image 461.png in Resources */,
 				1DDA508E1B2184D6009319FB /* ExpeditionsListViewConreoller.xib in Resources */,
+				9AECF2721B27326A0074E0FC /* EquipListAll.plist in Resources */,
 				1DDA50AB1B218789009319FB /* logo.png in Resources */,
-				9A0BB5FA1B21CC5A0084D30C /* EquipList_ssm_1_3.plist in Resources */,
 				1DDA50A91B218680009319FB /* 高速建造材.png in Resources */,
 				9A45ADE41B2285AD00004D42 /* 12cm单装炮.png in Resources */,
-				9A0BB5FE1B21DEBE0084D30C /* EquipList_mm_4_6.plist in Resources */,
 				1DDA50981B21859E009319FB /* 钢0.png in Resources */,
 				1DDA50991B21859E009319FB /* 铝0.png in Resources */,
 				1DDA50971B21859E009319FB /* 弹0.png in Resources */,

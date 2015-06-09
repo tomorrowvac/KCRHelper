@@ -13,8 +13,6 @@
 @interface EquipInfoTableViewController ()
 
 @property NSArray* equipList;
-@property NSArray* equipList1;
-//@property NSDictionary* equipmentList;
 @property NSArray* eList;//存储炮种类的
 @end
 
@@ -24,13 +22,13 @@
     [super viewDidLoad];
     self.title =@"装备资料";
     self.navigationController.navigationBarHidden = NO;
-    //装备数据：小口径单装炮
-    NSString* equipPath = [[NSBundle mainBundle]pathForResource:@"EquipList_ssm_1_3" ofType:@"plist"];
+    
+    //装备数据
+    NSString* equipPath = [[NSBundle mainBundle]pathForResource:@"EquipListAll" ofType:@"plist"];
     self.equipList = [NSArray arrayWithContentsOfFile:equipPath];
-    //装备数据：小口径单装炮
-    NSString* equipPath1 = [[NSBundle mainBundle]pathForResource:@"EquipList_mm_4_6" ofType:@"plist"];
-    self.equipList1 = [NSArray arrayWithContentsOfFile:equipPath1];
-    self.eList = @[@"小口径主炮",@"中口径主炮",@"大口径主炮",@"特大口径主炮"];
+    
+    //section标题
+    self.eList = @[@"砲銃強化弾",@"機",@"雷",@"其它"];
     
     //获取nib文件，注册
     UINib* eNib  = [UINib nibWithNibName:@"EquipTableViewCell" bundle:nil];
@@ -50,7 +48,9 @@
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return self.equipList.count;
+    
+    NSArray* equip = [self.equipList objectAtIndex:section];
+    return equip.count;
 }
 
 #pragma mark - Table view data source
@@ -58,9 +58,8 @@
     EquipTableViewCell* equipCell = [tableView dequeueReusableCellWithIdentifier:@"EquipTableViewCell" forIndexPath:indexPath];
     
     if (indexPath.section == 0) {
-        equipCell.equipName.text = self.equipList[indexPath.row][@"eName"];
-    }else if (indexPath.section == 1) {
-        equipCell.equipName.text = self.equipList1[indexPath.row][@"eName"];
+//        equipCell.equipName.text = self.equipList[indexPath.row][@"eName"];
+        equipCell.equipName.text = self.equipList[0][indexPath.row][@"eName"];
     }
     
     NSString* fileName = equipCell.equipName.text;
@@ -87,9 +86,7 @@
     
     
     if (indexPath.section == 0) {
-               equipIDVC.equipment =self.equipList[indexPath.row];
-    }else if (indexPath.section == 1) {
-               equipIDVC.equipment =self.equipList1[indexPath.row];
+               equipIDVC.equipment =self.equipList[0][indexPath.row];
     }
     
     [self.navigationController pushViewController:equipIDVC animated:YES];
