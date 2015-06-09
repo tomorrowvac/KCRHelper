@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<array>
+		<dict>
+			<key>sName</key>
+			<string>007三日月</string>
+		</dict>
+		<dict>
+			<key>sName</key>
+			<string>006长月</string>
+		</dict>
+		<dict>
+			<key>sName</key>
+			<string>002如月</string>
+		</dict>
+		<dict>
+			<key>sName</key>
+			<string>001陆月</string>
+		</dict>
+	</array>
+	<array>
+		<dict/>
+	</array>
+	<array>
+		<dict/>
+	</array>
+	<array>
+		<dict/>
+	</array>
+</array>
+</plist>

@@ -10,4 +10,6 @@
 
 @interface EquipInfoDetailViewController : UIViewController
 
+@property NSDictionary* equipment;
+
 @end

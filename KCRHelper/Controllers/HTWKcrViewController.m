@@ -8,8 +8,13 @@
 
 #import "HTWKcrViewController.h"
 #import "EquipInfoTableViewController.h"
+#import "ExpeditionsListViewConreoller.h"
+#import "ShipInfoTableViewController.h"
+
+
 
 @interface HTWKcrViewController ()
+@property (weak, nonatomic) IBOutlet UIImageView *backImage;
 
 @end
 
@@ -18,8 +23,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.navigationController.navigationBarHidden = YES;
+    
+    
+    
+    
 
 }
+
 - (void)viewWillAppear:(BOOL)animated{
     self.navigationController.navigationBarHidden = YES;
 
@@ -39,7 +49,8 @@
 }
 
 - (IBAction)shipInfoClicked:(id)sender {
-    
+    ShipInfoTableViewController* shipInfoVC = [[ShipInfoTableViewController alloc]init];
+    [self.navigationController pushViewController:shipInfoVC animated:YES];
     
 }
 - (IBAction)shipFormularClicked:(id)sender {
@@ -47,6 +58,20 @@
     
     
 }
+- (IBAction)expeditionInfoClicked:(id)sender {
+    ExpeditionsListViewConreoller *expeditionListVC =[[ExpeditionsListViewConreoller alloc]init];
+    [self.navigationController pushViewController:expeditionListVC animated:YES];
+    
+}
+- (IBAction)questInfoClicked:(id)sender {
+    
+    
+}
+- (IBAction)equipFormularClicked:(id)sender {
+    
+    
+}
+
 
 
 #pragma mark - 移除顶部电池状态栏

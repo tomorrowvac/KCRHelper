@@ -13,6 +13,13 @@
 @property (weak, nonatomic) IBOutlet UIButton *shipInfo;
 @property (weak, nonatomic) IBOutlet UIButton *shipFormular;
 
+//--------------------------------------------//
+@property (weak, nonatomic) IBOutlet UIButton *expeditionInfo;
+@property (weak, nonatomic) IBOutlet UIButton *questInfo;
+@property (weak, nonatomic) IBOutlet UIButton *equipFormular;
+
+
+
 
 
 
