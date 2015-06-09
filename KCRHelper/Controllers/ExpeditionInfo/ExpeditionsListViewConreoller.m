@@ -98,8 +98,21 @@
 
 // In a xib-based application, navigation from a table can be handled in -tableView:didSelectRowAtIndexPath:
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    ExpeditonDetailController *detailViewController = [[ExpeditonDetailController alloc] initWithNibName:@"ExpeditionDetailController" bundle:nil];
+    ExpeditonDetailController *detailViewController = [[ExpeditonDetailController alloc]init];
     [self.navigationController pushViewController:detailViewController animated:YES];
+    if (indexPath.section == 0) {
+        detailViewController.expedition = self.expeditionList1[indexPath.row];
+    }else if (indexPath.section == 1){
+        detailViewController.expedition = self.expeditionList2[indexPath.row];
+    }else if (indexPath.section == 2){
+        detailViewController.expedition = self.expeditionList3[indexPath.row];
+    }else if (indexPath.section == 3){
+        detailViewController.expedition = self.expeditionList4[indexPath.row];
+    }else if (indexPath.section == 4){
+        detailViewController.expedition = self.expeditionList5[indexPath.row];
+    }
+    
+    
 }
 
 

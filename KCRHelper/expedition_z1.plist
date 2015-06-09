@@ -84,46 +84,6 @@
 	</dict>
 	<dict>
 		<key>eName</key>
-		<string>警備任務</string>
-		<key>eLevel</key>
-		<string>LV.3</string>
-		<key>eTimeTake</key>
-		<string>20分钟</string>
-		<key>eRSCTake</key>
-		<dict>
-			<key>eTO</key>
-			<string>30%</string>
-			<key>eTA</key>
-			<string>20%</string>
-		</dict>
-		<key>eEXP</key>
-		<string>30</string>
-		<key>eReward</key>
-		<dict>
-			<key>eROi</key>
-			<string>30</string>
-			<key>eRAm</key>
-			<string>30</string>
-			<key>eRSt</key>
-			<string>40</string>
-			<key>eRAl</key>
-			<string>0</string>
-			<key>eRRe</key>
-			<string>无</string>
-			<key>eRBu</key>
-			<string>无</string>
-			<key>eRMa</key>
-			<string>无</string>
-			<key>eRFu</key>
-			<string>无</string>
-		</dict>
-		<key>eOption</key>
-		<string>最少3只，舰种自由</string>
-		<key>ePS</key>
-		<string>远征使用的轻巡洋舰推荐天龙型（消耗弹药时）和未改造夕张（不消耗弹药时）</string>
-	</dict>
-	<dict>
-		<key>eName</key>
 		<string>対潜警戒任務</string>
 		<key>eLevel</key>
 		<string>LV.3</string>
@@ -201,6 +161,46 @@
 		<string>最少4只，轻1驱2必要</string>
 		<key>ePS</key>
 		<string>无</string>
+	</dict>
+	<dict>
+		<key>eName</key>
+		<string>警備任務</string>
+		<key>eLevel</key>
+		<string>LV.3</string>
+		<key>eTimeTake</key>
+		<string>20分钟</string>
+		<key>eRSCTake</key>
+		<dict>
+			<key>eTO</key>
+			<string>30%</string>
+			<key>eTA</key>
+			<string>20%</string>
+		</dict>
+		<key>eEXP</key>
+		<string>30</string>
+		<key>eReward</key>
+		<dict>
+			<key>eROi</key>
+			<string>30</string>
+			<key>eRAm</key>
+			<string>30</string>
+			<key>eRSt</key>
+			<string>40</string>
+			<key>eRAl</key>
+			<string>0</string>
+			<key>eRRe</key>
+			<string>无</string>
+			<key>eRBu</key>
+			<string>无</string>
+			<key>eRMa</key>
+			<string>无</string>
+			<key>eRFu</key>
+			<string>无</string>
+		</dict>
+		<key>eOption</key>
+		<string>最少3只，舰种自由</string>
+		<key>ePS</key>
+		<string>远征使用的轻巡洋舰推荐天龙型（消耗弹药时）和未改造夕张（不消耗弹药时）</string>
 	</dict>
 	<dict>
 		<key>eName</key>

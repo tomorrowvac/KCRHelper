@@ -4,51 +4,51 @@
 <array>
 	<dict>
 		<key>eName</key>
-		<string>練習航海</string>
+		<string>タンカー護衛任務</string>
 		<key>eLevel</key>
-		<string>LV.1</string>
+		<string>LV.3</string>
 		<key>eTimeTake</key>
-		<string>15分钟</string>
+		<string>4小时</string>
 		<key>eRSCTake</key>
 		<dict>
 			<key>eTO</key>
-			<string>30%</string>
+			<string>50%</string>
 			<key>eTA</key>
 			<string>0</string>
 		</dict>
 		<key>eEXP</key>
-		<string>10</string>
+		<string>60</string>
 		<key>eReward</key>
 		<dict>
 			<key>eROi</key>
-			<string>0</string>
+			<string>350</string>
 			<key>eRAm</key>
-			<string>30</string>
+			<string>0</string>
 			<key>eRSt</key>
 			<string>0</string>
 			<key>eRAl</key>
 			<string>0</string>
 			<key>eRRe</key>
-			<string>无</string>
+			<string>2</string>
 			<key>eRBu</key>
 			<string>无</string>
 			<key>eRMa</key>
 			<string>无</string>
 			<key>eRFu</key>
-			<string>无</string>
+			<string>小</string>
 		</dict>
 		<key>eOption</key>
-		<string>最少2只，舰种自由</string>
+		<string>最少4只，轻1驱2必要</string>
 		<key>ePS</key>
-		<string>舰种自由的远征推荐使用驱逐舰和潜水艇</string>
+		<string></string>
 	</dict>
 	<dict>
 		<key>eName</key>
-		<string>練習航海</string>
+		<string>強行偵察任務</string>
 		<key>eLevel</key>
-		<string>LV.1</string>
+		<string>LV.3</string>
 		<key>eTimeTake</key>
-		<string>15分钟</string>
+		<string>1小时30分</string>
 		<key>eRSCTake</key>
 		<dict>
 			<key>eTO</key>
@@ -57,270 +57,272 @@
 			<string>0</string>
 		</dict>
 		<key>eEXP</key>
-		<string>10</string>
+		<string>50</string>
 		<key>eReward</key>
 		<dict>
 			<key>eROi</key>
 			<string>0</string>
 			<key>eRAm</key>
-			<string>30</string>
+			<string>50</string>
 			<key>eRSt</key>
 			<string>0</string>
 			<key>eRAl</key>
-			<string>0</string>
+			<string>30</string>
 			<key>eRRe</key>
-			<string>无</string>
+			<string>1</string>
 			<key>eRBu</key>
-			<string>无</string>
+			<string>1</string>
 			<key>eRMa</key>
 			<string>无</string>
 			<key>eRFu</key>
 			<string>无</string>
 		</dict>
 		<key>eOption</key>
-		<string>最少2只，舰种自由</string>
+		<string>最少3只，轻2必要</string>
 		<key>ePS</key>
-		<string>舰种自由的远征推荐使用驱逐舰和潜水艇</string>
+		<string></string>
 	</dict>
 	<dict>
 		<key>eName</key>
-		<string>練習航海</string>
+		<string>ボーキサイト輸送任務</string>
 		<key>eLevel</key>
-		<string>LV.1</string>
+		<string>LV.6</string>
 		<key>eTimeTake</key>
-		<string>15分钟</string>
+		<string>5小时</string>
 		<key>eRSCTake</key>
 		<dict>
 			<key>eTO</key>
-			<string>30%</string>
+			<string>50%</string>
 			<key>eTA</key>
 			<string>0</string>
 		</dict>
 		<key>eEXP</key>
-		<string>10</string>
+		<string>40</string>
 		<key>eReward</key>
 		<dict>
 			<key>eROi</key>
 			<string>0</string>
 			<key>eRAm</key>
-			<string>30</string>
+			<string>0</string>
 			<key>eRSt</key>
 			<string>0</string>
 			<key>eRAl</key>
-			<string>0</string>
+			<string>250</string>
 			<key>eRRe</key>
-			<string>无</string>
+			<string>1</string>
 			<key>eRBu</key>
 			<string>无</string>
 			<key>eRMa</key>
 			<string>无</string>
 			<key>eRFu</key>
-			<string>无</string>
+			<string>小</string>
 		</dict>
 		<key>eOption</key>
-		<string>最少2只，舰种自由</string>
+		<string>最少4只，驱2必要</string>
 		<key>ePS</key>
-		<string>舰种自由的远征推荐使用驱逐舰和潜水艇</string>
+		<string></string>
 	</dict>
 	<dict>
 		<key>eName</key>
-		<string>練習航海</string>
+		<string>資源輸送任務</string>
 		<key>eLevel</key>
-		<string>LV.1</string>
+		<string>LV.4</string>
 		<key>eTimeTake</key>
-		<string>15分钟</string>
+		<string>8小时</string>
 		<key>eRSCTake</key>
 		<dict>
 			<key>eTO</key>
-			<string>30%</string>
+			<string>50%</string>
 			<key>eTA</key>
 			<string>0</string>
 		</dict>
 		<key>eEXP</key>
-		<string>10</string>
+		<string>50</string>
 		<key>eReward</key>
 		<dict>
 			<key>eROi</key>
-			<string>0</string>
+			<string>50</string>
 			<key>eRAm</key>
-			<string>30</string>
+			<string>250</string>
 			<key>eRSt</key>
-			<string>0</string>
+			<string>200</string>
 			<key>eRAl</key>
-			<string>0</string>
+			<string>50</string>
 			<key>eRRe</key>
 			<string>无</string>
 			<key>eRBu</key>
 			<string>无</string>
 			<key>eRMa</key>
-			<string>无</string>
+			<string>1</string>
 			<key>eRFu</key>
-			<string>无</string>
+			<string>中</string>
 		</dict>
 		<key>eOption</key>
-		<string>最少2只，舰种自由</string>
+		<string>最少4只，驱2必要</string>
 		<key>ePS</key>
-		<string>舰种自由的远征推荐使用驱逐舰和潜水艇</string>
+		<string></string>
 	</dict>
 	<dict>
 		<key>eName</key>
-		<string>練習航海</string>
+		<string>鼠輸送作戦	</string>
 		<key>eLevel</key>
-		<string>LV.1</string>
+		<string>LV.5</string>
 		<key>eTimeTake</key>
-		<string>15分钟</string>
+		<string>4小时</string>
 		<key>eRSCTake</key>
 		<dict>
 			<key>eTO</key>
-			<string>30%</string>
+			<string>50%</string>
 			<key>eTA</key>
-			<string>0</string>
+			<string>40%</string>
 		</dict>
 		<key>eEXP</key>
-		<string>10</string>
+		<string>60</string>
 		<key>eReward</key>
 		<dict>
 			<key>eROi</key>
-			<string>0</string>
+			<string>240</string>
 			<key>eRAm</key>
-			<string>30</string>
+			<string>300</string>
 			<key>eRSt</key>
 			<string>0</string>
 			<key>eRAl</key>
 			<string>0</string>
 			<key>eRRe</key>
-			<string>无</string>
+			<string>2</string>
 			<key>eRBu</key>
 			<string>无</string>
 			<key>eRMa</key>
 			<string>无</string>
 			<key>eRFu</key>
-			<string>无</string>
+			<string>小</string>
 		</dict>
 		<key>eOption</key>
-		<string>最少2只，舰种自由</string>
+		<string>全6只，轻1驱4必要</string>
 		<key>ePS</key>
-		<string>舰种自由的远征推荐使用驱逐舰和潜水艇</string>
+		<string></string>
 	</dict>
 	<dict>
 		<key>eName</key>
-		<string>練習航海</string>
+		<string>包囲陸戦隊撤収作戦</string>
 		<key>eLevel</key>
-		<string>LV.1</string>
+		<string>LV.6</string>
 		<key>eTimeTake</key>
-		<string>15分钟</string>
+		<string>6小时</string>
 		<key>eRSCTake</key>
 		<dict>
 			<key>eTO</key>
-			<string>30%</string>
+			<string>50%</string>
 			<key>eTA</key>
 			<string>0</string>
 		</dict>
 		<key>eEXP</key>
-		<string>10</string>
+		<string>100</string>
 		<key>eReward</key>
 		<dict>
 			<key>eROi</key>
 			<string>0</string>
 			<key>eRAm</key>
-			<string>30</string>
+			<string>240</string>
 			<key>eRSt</key>
-			<string>0</string>
+			<string>200</string>
 			<key>eRAl</key>
 			<string>0</string>
 			<key>eRRe</key>
-			<string>无</string>
+			<string>1</string>
 			<key>eRBu</key>
 			<string>无</string>
 			<key>eRMa</key>
-			<string>无</string>
+			<string>1</string>
 			<key>eRFu</key>
 			<string>无</string>
 		</dict>
 		<key>eOption</key>
-		<string>最少2只，舰种自由</string>
+		<string>全6只，轻1驱3必要</string>
 		<key>ePS</key>
-		<string>舰种自由的远征推荐使用驱逐舰和潜水艇</string>
+		<string></string>
 	</dict>
 	<dict>
 		<key>eName</key>
-		<string>練習航海</string>
+		<string>囮機動部隊支援作戦</string>
 		<key>eLevel</key>
-		<string>LV.1</string>
+		<string>LV.9</string>
 		<key>eTimeTake</key>
-		<string>15分钟</string>
+		<string>12小时</string>
 		<key>eRSCTake</key>
 		<dict>
 			<key>eTO</key>
-			<string>30%</string>
+			<string>50%</string>
 			<key>eTA</key>
-			<string>0</string>
+			<string>40%</string>
 		</dict>
 		<key>eEXP</key>
-		<string>10</string>
+		<string>160</string>
 		<key>eReward</key>
 		<dict>
 			<key>eROi</key>
 			<string>0</string>
 			<key>eRAm</key>
-			<string>30</string>
+			<string>0</string>
 			<key>eRSt</key>
-			<string>0</string>
+			<string>300</string>
 			<key>eRAl</key>
-			<string>0</string>
+			<string>400</string>
 			<key>eRRe</key>
 			<string>无</string>
 			<key>eRBu</key>
 			<string>无</string>
 			<key>eRMa</key>
-			<string>无</string>
+			<string>1</string>
 			<key>eRFu</key>
-			<string>无</string>
+			<string>大</string>
 		</dict>
 		<key>eOption</key>
-		<string>最少2只，舰种自由</string>
+		<string>全6只，空母2驱2必要</string>
 		<key>ePS</key>
-		<string>舰种自由的远征推荐使用驱逐舰和潜水艇</string>
+		<string>轻空母，水母可，潜母不可，推荐使用凤翔、水母和其他轻母（飞鹰型和千岁型航除外）</string>
 	</dict>
 	<dict>
 		<key>eName</key>
-		<string>練習航海</string>
+		<string>艦隊決戦援護作戦</string>
 		<key>eLevel</key>
-		<string>LV.1</string>
+		<string>LV.11</string>
 		<key>eTimeTake</key>
-		<string>15分钟</string>
+		<string>15小时</string>
 		<key>eRSCTake</key>
 		<dict>
 			<key>eTO</key>
-			<string>30%</string>
+			<string>50%</string>
 			<key>eTA</key>
-			<string>0</string>
+			<string>40%</string>
 		</dict>
 		<key>eEXP</key>
-		<string>10</string>
+		<string>200</string>
 		<key>eReward</key>
 		<dict>
 			<key>eROi</key>
-			<string>0</string>
+			<string>500</string>
 			<key>eRAm</key>
-			<string>30</string>
+			<string>500</string>
 			<key>eRSt</key>
-			<string>0</string>
+			<string>200</string>
 			<key>eRAl</key>
-			<string>0</string>
+			<string>200</string>
 			<key>eRRe</key>
 			<string>无</string>
 			<key>eRBu</key>
-			<string>无</string>
+			<string>2</string>
 			<key>eRMa</key>
-			<string>无</string>
+			<string>2</string>
 			<key>eRFu</key>
 			<string>无</string>
 		</dict>
 		<key>eOption</key>
-		<string>最少2只，舰种自由</string>
+		<string>全6只，轻1驱2必要
+全6只，轻1驱2必要
+全6只，轻1驱2必要</string>
 		<key>ePS</key>
-		<string>舰种自由的远征推荐使用驱逐舰和潜水艇</string>
+		<string></string>
 	</dict>
 </array>
 </plist>

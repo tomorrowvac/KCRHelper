@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface ExpeditonDetailController : UIViewController
+@property(nonatomic,strong)NSDictionary *expedition;
 
 @end

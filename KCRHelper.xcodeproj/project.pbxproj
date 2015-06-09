@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		1D2708191B21936200C95571 /* HTWKcrViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D2708181B21936200C95571 /* HTWKcrViewController.xib */; };
+		1D6AEC1C1B23147A004DCBF2 /* 资材.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D6AEC1B1B23147A004DCBF2 /* 资材.png */; };
+		1D6AEC201B23149F004DCBF2 /* 010.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D6AEC1D1B23149F004DCBF2 /* 010.png */; };
+		1D6AEC211B23149F004DCBF2 /* 011.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D6AEC1E1B23149F004DCBF2 /* 011.png */; };
+		1D6AEC221B23149F004DCBF2 /* 012.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D6AEC1F1B23149F004DCBF2 /* 012.png */; };
 		1D6D3E111B22A69700DC5432 /* expedition_z1.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1D6D3E101B22A69700DC5432 /* expedition_z1.plist */; };
 		1D6D3E131B22A80E00DC5432 /* expedition_z2.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1D6D3E121B22A80E00DC5432 /* expedition_z2.plist */; };
 		1D6D3E151B22A81700DC5432 /* expedition_z3.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1D6D3E141B22A81700DC5432 /* expedition_z3.plist */; };
@@ -62,6 +66,10 @@
 
 /* Begin PBXFileReference section */
 		1D2708181B21936200C95571 /* HTWKcrViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HTWKcrViewController.xib; sourceTree = "<group>"; };
+		1D6AEC1B1B23147A004DCBF2 /* 资材.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "资材.png"; sourceTree = "<group>"; };
+		1D6AEC1D1B23149F004DCBF2 /* 010.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 010.png; sourceTree = "<group>"; };
+		1D6AEC1E1B23149F004DCBF2 /* 011.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 011.png; sourceTree = "<group>"; };
+		1D6AEC1F1B23149F004DCBF2 /* 012.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 012.png; sourceTree = "<group>"; };
 		1D6D3E101B22A69700DC5432 /* expedition_z1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = expedition_z1.plist; sourceTree = "<group>"; };
 		1D6D3E121B22A80E00DC5432 /* expedition_z2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = expedition_z2.plist; sourceTree = "<group>"; };
 		1D6D3E141B22A81700DC5432 /* expedition_z3.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = expedition_z3.plist; sourceTree = "<group>"; };
@@ -268,6 +276,10 @@
 		1DDA50911B218570009319FB /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				1D6AEC1D1B23149F004DCBF2 /* 010.png */,
+				1D6AEC1E1B23149F004DCBF2 /* 011.png */,
+				1D6AEC1F1B23149F004DCBF2 /* 012.png */,
+				1D6AEC1B1B23147A004DCBF2 /* 资材.png */,
 				1DDA50A61B218680009319FB /* 高速修复材.png */,
 				1DDA50A71B218680009319FB /* 高速建造材.png */,
 				1DDA509A1B2185BC009319FB /* 开发建材.png */,
@@ -445,8 +457,11 @@
 				1DDA50A91B218680009319FB /* 高速建造材.png in Resources */,
 				9A45ADE41B2285AD00004D42 /* 12cm单装炮.png in Resources */,
 				9A0BB5FE1B21DEBE0084D30C /* EquipList_mm_4_6.plist in Resources */,
+				1D6AEC221B23149F004DCBF2 /* 012.png in Resources */,
 				1DDA50981B21859E009319FB /* 钢0.png in Resources */,
+				1D6AEC211B23149F004DCBF2 /* 011.png in Resources */,
 				1DDA50991B21859E009319FB /* 铝0.png in Resources */,
+				1D6AEC1C1B23147A004DCBF2 /* 资材.png in Resources */,
 				1D6D3E241B22B73C00DC5432 /* ExpeditonDetailController.xib in Resources */,
 				1D6D3E171B22A81F00DC5432 /* expedition_z4.plist in Resources */,
 				1DDA50971B21859E009319FB /* 弹0.png in Resources */,
@@ -460,6 +475,7 @@
 				1DDA50A51B2185F3009319FB /* image 463.png in Resources */,
 				1DDA50A81B218680009319FB /* 高速修复材.png in Resources */,
 				1DDA50961B21859E009319FB /* 油0.png in Resources */,
+				1D6AEC201B23149F004DCBF2 /* 010.png in Resources */,
 				1DDA50A21B2185F3009319FB /* image 456.png in Resources */,
 				1D6D3E191B22A82C00DC5432 /* expedition_z5.plist in Resources */,
 				1DDA50A31B2185F3009319FB /* image 459.png in Resources */,
