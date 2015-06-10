@@ -37,27 +37,27 @@
 		9AE46DDA1B2130B000C13EA9 /* HTWKcrViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AE46DD81B2130B000C13EA9 /* HTWKcrViewController.m */; };
 		9AE46DE41B213C0D00C13EA9 /* EquipInfoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AE46DE31B213C0D00C13EA9 /* EquipInfoTableViewController.m */; };
 		9AECF2721B27326A0074E0FC /* EquipListAll.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9AECF2711B27326A0074E0FC /* EquipListAll.plist */; };
-		9AECF2741B2737950074E0FC /* 14cm单装炮.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AECF2731B2737950074E0FC /* 14cm单装炮.png */; };
-		9AECF2761B2737B20074E0FC /* 15.5cm三连装炮.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AECF2751B2737B20074E0FC /* 15.5cm三连装炮.png */; };
-		9AECF2781B2737C50074E0FC /* 20.3cm连装炮.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AECF2771B2737C50074E0FC /* 20.3cm连装炮.png */; };
 		9AECF27B1B2738E70074E0FC /* ShipInfoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AECF27A1B2738E70074E0FC /* ShipInfoTableViewController.m */; };
 		9AECF2801B27414D0074E0FC /* ShipipListAll.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9AECF27F1B27414D0074E0FC /* ShipipListAll.plist */; };
-		9AECF2861B2746EB0074E0FC /* expedition_z1.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9AECF2811B2746EB0074E0FC /* expedition_z1.plist */; };
-		9AECF2871B2746EB0074E0FC /* expedition_z2.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9AECF2821B2746EB0074E0FC /* expedition_z2.plist */; };
-		9AECF2881B2746EB0074E0FC /* expedition_z3.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9AECF2831B2746EB0074E0FC /* expedition_z3.plist */; };
-		9AECF2891B2746EB0074E0FC /* expedition_z4.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9AECF2841B2746EB0074E0FC /* expedition_z4.plist */; };
-		9AECF28A1B2746EB0074E0FC /* expedition_z5.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9AECF2851B2746EB0074E0FC /* expedition_z5.plist */; };
-		9AECF2951B2747290074E0FC /* ExpeditionsListViewConreoller.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AECF28D1B2747290074E0FC /* ExpeditionsListViewConreoller.m */; };
-		9AECF2961B2747290074E0FC /* ExpeditionsListViewConreoller.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9AECF28E1B2747290074E0FC /* ExpeditionsListViewConreoller.xib */; };
-		9AECF2971B2747290074E0FC /* ExpeditionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AECF2901B2747290074E0FC /* ExpeditionCell.m */; };
-		9AECF2981B2747290074E0FC /* ExpeditionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9AECF2911B2747290074E0FC /* ExpeditionCell.xib */; };
-		9AECF2991B2747290074E0FC /* ExpeditonDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AECF2931B2747290074E0FC /* ExpeditonDetailController.m */; };
-		9AECF29A1B2747290074E0FC /* ExpeditonDetailController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9AECF2941B2747290074E0FC /* ExpeditonDetailController.xib */; };
-		9AECF29F1B27474B0074E0FC /* 010.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AECF29B1B27474B0074E0FC /* 010.png */; };
-		9AECF2A01B27474B0074E0FC /* 011.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AECF29C1B27474B0074E0FC /* 011.png */; };
-		9AECF2A11B27474B0074E0FC /* 012.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AECF29D1B27474B0074E0FC /* 012.png */; };
-		9AECF2A21B27474B0074E0FC /* 资材.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AECF29E1B27474B0074E0FC /* 资材.png */; };
-		9AECF2A41B2747D10074E0FC /* image 141.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AECF2A31B2747D10074E0FC /* image 141.png */; };
+		9AECF2FC1B27E4800074E0FC /* image 141.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AECF2FB1B27E4800074E0FC /* image 141.png */; };
+		9AECF3061B27E5920074E0FC /* ExpeditionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AECF2FE1B27E5920074E0FC /* ExpeditionCell.m */; };
+		9AECF3071B27E5920074E0FC /* ExpeditionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9AECF2FF1B27E5920074E0FC /* ExpeditionCell.xib */; };
+		9AECF3081B27E5920074E0FC /* ExpeditionsListViewConreoller.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AECF3011B27E5920074E0FC /* ExpeditionsListViewConreoller.m */; };
+		9AECF3091B27E5920074E0FC /* ExpeditionsListViewConreoller.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9AECF3021B27E5920074E0FC /* ExpeditionsListViewConreoller.xib */; };
+		9AECF30A1B27E5920074E0FC /* ExpeditonDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AECF3041B27E5920074E0FC /* ExpeditonDetailController.m */; };
+		9AECF30B1B27E5920074E0FC /* ExpeditonDetailController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9AECF3051B27E5920074E0FC /* ExpeditonDetailController.xib */; };
+		9AECF3111B27E5C90074E0FC /* expedition_z1.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9AECF30C1B27E5C90074E0FC /* expedition_z1.plist */; };
+		9AECF3121B27E5C90074E0FC /* expedition_z2.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9AECF30D1B27E5C90074E0FC /* expedition_z2.plist */; };
+		9AECF3131B27E5C90074E0FC /* expedition_z3.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9AECF30E1B27E5C90074E0FC /* expedition_z3.plist */; };
+		9AECF3141B27E5C90074E0FC /* expedition_z4.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9AECF30F1B27E5C90074E0FC /* expedition_z4.plist */; };
+		9AECF3151B27E5C90074E0FC /* expedition_z5.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9AECF3101B27E5C90074E0FC /* expedition_z5.plist */; };
+		9AECF31A1B27E6530074E0FC /* 010.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AECF3161B27E6530074E0FC /* 010.png */; };
+		9AECF31B1B27E6530074E0FC /* 011.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AECF3171B27E6530074E0FC /* 011.png */; };
+		9AECF31C1B27E6530074E0FC /* 012.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AECF3181B27E6530074E0FC /* 012.png */; };
+		9AECF31D1B27E6530074E0FC /* 资材.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AECF3191B27E6530074E0FC /* 资材.png */; };
+		9AECF3211B27E6A90074E0FC /* 14cm单装炮.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AECF31E1B27E6A90074E0FC /* 14cm单装炮.png */; };
+		9AECF3221B27E6A90074E0FC /* 15.5cm三连装炮.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AECF31F1B27E6A90074E0FC /* 15.5cm三连装炮.png */; };
+		9AECF3231B27E6A90074E0FC /* 20.3cm连装炮.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AECF3201B27E6A90074E0FC /* 20.3cm连装炮.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -110,31 +110,31 @@
 		9AE46DE21B213C0D00C13EA9 /* EquipInfoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EquipInfoTableViewController.h; sourceTree = "<group>"; };
 		9AE46DE31B213C0D00C13EA9 /* EquipInfoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EquipInfoTableViewController.m; sourceTree = "<group>"; };
 		9AECF2711B27326A0074E0FC /* EquipListAll.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = EquipListAll.plist; sourceTree = "<group>"; };
-		9AECF2731B2737950074E0FC /* 14cm单装炮.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "14cm单装炮.png"; path = "../../../../Desktop/装备/equip/14cm单装炮.png"; sourceTree = "<group>"; };
-		9AECF2751B2737B20074E0FC /* 15.5cm三连装炮.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "15.5cm三连装炮.png"; path = "../../../../Desktop/装备/equip/15.5cm三连装炮.png"; sourceTree = "<group>"; };
-		9AECF2771B2737C50074E0FC /* 20.3cm连装炮.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "20.3cm连装炮.png"; path = "../../../../Desktop/装备/equip/20.3cm连装炮.png"; sourceTree = "<group>"; };
 		9AECF2791B2738E70074E0FC /* ShipInfoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ShipInfoTableViewController.h; path = KCRHelper/Controllers/ShipInfoTableViewController.h; sourceTree = SOURCE_ROOT; };
 		9AECF27A1B2738E70074E0FC /* ShipInfoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ShipInfoTableViewController.m; path = KCRHelper/Controllers/ShipInfoTableViewController.m; sourceTree = SOURCE_ROOT; };
 		9AECF27F1B27414D0074E0FC /* ShipipListAll.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ShipipListAll.plist; sourceTree = "<group>"; };
-		9AECF2811B2746EB0074E0FC /* expedition_z1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = expedition_z1.plist; path = ../../../vacDESIGN/KCRHelper/KCRHelper/expedition_z1.plist; sourceTree = "<group>"; };
-		9AECF2821B2746EB0074E0FC /* expedition_z2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = expedition_z2.plist; path = ../../../vacDESIGN/KCRHelper/KCRHelper/expedition_z2.plist; sourceTree = "<group>"; };
-		9AECF2831B2746EB0074E0FC /* expedition_z3.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = expedition_z3.plist; path = ../../../vacDESIGN/KCRHelper/KCRHelper/expedition_z3.plist; sourceTree = "<group>"; };
-		9AECF2841B2746EB0074E0FC /* expedition_z4.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = expedition_z4.plist; path = ../../../vacDESIGN/KCRHelper/KCRHelper/expedition_z4.plist; sourceTree = "<group>"; };
-		9AECF2851B2746EB0074E0FC /* expedition_z5.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = expedition_z5.plist; path = ../../../vacDESIGN/KCRHelper/KCRHelper/expedition_z5.plist; sourceTree = "<group>"; };
-		9AECF28C1B2747290074E0FC /* ExpeditionsListViewConreoller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ExpeditionsListViewConreoller.h; path = ../../../../vacDESIGN/KCRHelper/KCRHelper/Controllers/ExpeditionInfo/ExpeditionsListViewConreoller.h; sourceTree = "<group>"; };
-		9AECF28D1B2747290074E0FC /* ExpeditionsListViewConreoller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ExpeditionsListViewConreoller.m; path = ../../../../vacDESIGN/KCRHelper/KCRHelper/Controllers/ExpeditionInfo/ExpeditionsListViewConreoller.m; sourceTree = "<group>"; };
-		9AECF28E1B2747290074E0FC /* ExpeditionsListViewConreoller.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ExpeditionsListViewConreoller.xib; path = ../../../../vacDESIGN/KCRHelper/KCRHelper/Controllers/ExpeditionInfo/ExpeditionsListViewConreoller.xib; sourceTree = "<group>"; };
-		9AECF28F1B2747290074E0FC /* ExpeditionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ExpeditionCell.h; path = ../../../../vacDESIGN/KCRHelper/KCRHelper/Controllers/ExpeditionInfo/ExpeditionCell.h; sourceTree = "<group>"; };
-		9AECF2901B2747290074E0FC /* ExpeditionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ExpeditionCell.m; path = ../../../../vacDESIGN/KCRHelper/KCRHelper/Controllers/ExpeditionInfo/ExpeditionCell.m; sourceTree = "<group>"; };
-		9AECF2911B2747290074E0FC /* ExpeditionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ExpeditionCell.xib; path = ../../../../vacDESIGN/KCRHelper/KCRHelper/Controllers/ExpeditionInfo/ExpeditionCell.xib; sourceTree = "<group>"; };
-		9AECF2921B2747290074E0FC /* ExpeditonDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ExpeditonDetailController.h; path = ../../../../vacDESIGN/KCRHelper/KCRHelper/Controllers/ExpeditionInfo/ExpeditonDetailController.h; sourceTree = "<group>"; };
-		9AECF2931B2747290074E0FC /* ExpeditonDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ExpeditonDetailController.m; path = ../../../../vacDESIGN/KCRHelper/KCRHelper/Controllers/ExpeditionInfo/ExpeditonDetailController.m; sourceTree = "<group>"; };
-		9AECF2941B2747290074E0FC /* ExpeditonDetailController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ExpeditonDetailController.xib; path = ../../../../vacDESIGN/KCRHelper/KCRHelper/Controllers/ExpeditionInfo/ExpeditonDetailController.xib; sourceTree = "<group>"; };
-		9AECF29B1B27474B0074E0FC /* 010.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 010.png; path = ../../../vacDESIGN/KCRHelper/KCRHelper/010.png; sourceTree = "<group>"; };
-		9AECF29C1B27474B0074E0FC /* 011.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 011.png; path = ../../../vacDESIGN/KCRHelper/KCRHelper/011.png; sourceTree = "<group>"; };
-		9AECF29D1B27474B0074E0FC /* 012.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 012.png; path = ../../../vacDESIGN/KCRHelper/KCRHelper/012.png; sourceTree = "<group>"; };
-		9AECF29E1B27474B0074E0FC /* 资材.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "资材.png"; path = "../../../vacDESIGN/KCRHelper/KCRHelper/资材.png"; sourceTree = "<group>"; };
-		9AECF2A31B2747D10074E0FC /* image 141.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "image 141.png"; path = "../../../vacDESIGN/KCRHelper/KCRHelper/image 141.png"; sourceTree = "<group>"; };
+		9AECF2FB1B27E4800074E0FC /* image 141.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image 141.png"; sourceTree = "<group>"; };
+		9AECF2FD1B27E5920074E0FC /* ExpeditionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ExpeditionCell.h; path = ExpeditionInfo/ExpeditionCell.h; sourceTree = "<group>"; };
+		9AECF2FE1B27E5920074E0FC /* ExpeditionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ExpeditionCell.m; path = ExpeditionInfo/ExpeditionCell.m; sourceTree = "<group>"; };
+		9AECF2FF1B27E5920074E0FC /* ExpeditionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ExpeditionCell.xib; path = ExpeditionInfo/ExpeditionCell.xib; sourceTree = "<group>"; };
+		9AECF3001B27E5920074E0FC /* ExpeditionsListViewConreoller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ExpeditionsListViewConreoller.h; path = ExpeditionInfo/ExpeditionsListViewConreoller.h; sourceTree = "<group>"; };
+		9AECF3011B27E5920074E0FC /* ExpeditionsListViewConreoller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ExpeditionsListViewConreoller.m; path = ExpeditionInfo/ExpeditionsListViewConreoller.m; sourceTree = "<group>"; };
+		9AECF3021B27E5920074E0FC /* ExpeditionsListViewConreoller.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ExpeditionsListViewConreoller.xib; path = ExpeditionInfo/ExpeditionsListViewConreoller.xib; sourceTree = "<group>"; };
+		9AECF3031B27E5920074E0FC /* ExpeditonDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ExpeditonDetailController.h; path = ExpeditionInfo/ExpeditonDetailController.h; sourceTree = "<group>"; };
+		9AECF3041B27E5920074E0FC /* ExpeditonDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ExpeditonDetailController.m; path = ExpeditionInfo/ExpeditonDetailController.m; sourceTree = "<group>"; };
+		9AECF3051B27E5920074E0FC /* ExpeditonDetailController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ExpeditonDetailController.xib; path = ExpeditionInfo/ExpeditonDetailController.xib; sourceTree = "<group>"; };
+		9AECF30C1B27E5C90074E0FC /* expedition_z1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = expedition_z1.plist; sourceTree = "<group>"; };
+		9AECF30D1B27E5C90074E0FC /* expedition_z2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = expedition_z2.plist; sourceTree = "<group>"; };
+		9AECF30E1B27E5C90074E0FC /* expedition_z3.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = expedition_z3.plist; sourceTree = "<group>"; };
+		9AECF30F1B27E5C90074E0FC /* expedition_z4.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = expedition_z4.plist; sourceTree = "<group>"; };
+		9AECF3101B27E5C90074E0FC /* expedition_z5.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = expedition_z5.plist; sourceTree = "<group>"; };
+		9AECF3161B27E6530074E0FC /* 010.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 010.png; sourceTree = "<group>"; };
+		9AECF3171B27E6530074E0FC /* 011.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 011.png; sourceTree = "<group>"; };
+		9AECF3181B27E6530074E0FC /* 012.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 012.png; sourceTree = "<group>"; };
+		9AECF3191B27E6530074E0FC /* 资材.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "资材.png"; sourceTree = "<group>"; };
+		9AECF31E1B27E6A90074E0FC /* 14cm单装炮.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "14cm单装炮.png"; sourceTree = "<group>"; };
+		9AECF31F1B27E6A90074E0FC /* 15.5cm三连装炮.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "15.5cm三连装炮.png"; sourceTree = "<group>"; };
+		9AECF3201B27E6A90074E0FC /* 20.3cm连装炮.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "20.3cm连装炮.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -232,15 +232,15 @@
 		1DDA50891B2182BA009319FB /* ExpeditionInfo */ = {
 			isa = PBXGroup;
 			children = (
-				9AECF28C1B2747290074E0FC /* ExpeditionsListViewConreoller.h */,
-				9AECF28D1B2747290074E0FC /* ExpeditionsListViewConreoller.m */,
-				9AECF28E1B2747290074E0FC /* ExpeditionsListViewConreoller.xib */,
-				9AECF28F1B2747290074E0FC /* ExpeditionCell.h */,
-				9AECF2901B2747290074E0FC /* ExpeditionCell.m */,
-				9AECF2911B2747290074E0FC /* ExpeditionCell.xib */,
-				9AECF2921B2747290074E0FC /* ExpeditonDetailController.h */,
-				9AECF2931B2747290074E0FC /* ExpeditonDetailController.m */,
-				9AECF2941B2747290074E0FC /* ExpeditonDetailController.xib */,
+				9AECF2FD1B27E5920074E0FC /* ExpeditionCell.h */,
+				9AECF2FE1B27E5920074E0FC /* ExpeditionCell.m */,
+				9AECF2FF1B27E5920074E0FC /* ExpeditionCell.xib */,
+				9AECF3001B27E5920074E0FC /* ExpeditionsListViewConreoller.h */,
+				9AECF3011B27E5920074E0FC /* ExpeditionsListViewConreoller.m */,
+				9AECF3021B27E5920074E0FC /* ExpeditionsListViewConreoller.xib */,
+				9AECF3031B27E5920074E0FC /* ExpeditonDetailController.h */,
+				9AECF3041B27E5920074E0FC /* ExpeditonDetailController.m */,
+				9AECF3051B27E5920074E0FC /* ExpeditonDetailController.xib */,
 			);
 			name = ExpeditionInfo;
 			sourceTree = "<group>";
@@ -269,10 +269,10 @@
 		1DDA50911B218570009319FB /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				9AECF29B1B27474B0074E0FC /* 010.png */,
-				9AECF29C1B27474B0074E0FC /* 011.png */,
-				9AECF29D1B27474B0074E0FC /* 012.png */,
-				9AECF29E1B27474B0074E0FC /* 资材.png */,
+				9AECF3161B27E6530074E0FC /* 010.png */,
+				9AECF3171B27E6530074E0FC /* 011.png */,
+				9AECF3181B27E6530074E0FC /* 012.png */,
+				9AECF3191B27E6530074E0FC /* 资材.png */,
 				1DDA50A61B218680009319FB /* 高速修复材.png */,
 				1DDA50A71B218680009319FB /* 高速建造材.png */,
 				1DDA509A1B2185BC009319FB /* 开发建材.png */,
@@ -309,12 +309,12 @@
 		9A45ADE51B2285B200004D42 /* equipPic */ = {
 			isa = PBXGroup;
 			children = (
+				9AECF31E1B27E6A90074E0FC /* 14cm单装炮.png */,
+				9AECF31F1B27E6A90074E0FC /* 15.5cm三连装炮.png */,
+				9AECF3201B27E6A90074E0FC /* 20.3cm连装炮.png */,
 				9A45ADE31B2285AD00004D42 /* 12cm单装炮.png */,
 				9A45ADEB1B229E0700004D42 /* 10cm连装高角炮.png */,
 				9A45ADEC1B229E0700004D42 /* 12.7cm连装炮.png */,
-				9AECF2731B2737950074E0FC /* 14cm单装炮.png */,
-				9AECF2751B2737B20074E0FC /* 15.5cm三连装炮.png */,
-				9AECF2771B2737C50074E0FC /* 20.3cm连装炮.png */,
 			);
 			name = equipPic;
 			sourceTree = "<group>";
@@ -377,11 +377,11 @@
 		9AECF28B1B2746FB0074E0FC /* ExpeditionInfo */ = {
 			isa = PBXGroup;
 			children = (
-				9AECF2811B2746EB0074E0FC /* expedition_z1.plist */,
-				9AECF2821B2746EB0074E0FC /* expedition_z2.plist */,
-				9AECF2831B2746EB0074E0FC /* expedition_z3.plist */,
-				9AECF2841B2746EB0074E0FC /* expedition_z4.plist */,
-				9AECF2851B2746EB0074E0FC /* expedition_z5.plist */,
+				9AECF30C1B27E5C90074E0FC /* expedition_z1.plist */,
+				9AECF30D1B27E5C90074E0FC /* expedition_z2.plist */,
+				9AECF30E1B27E5C90074E0FC /* expedition_z3.plist */,
+				9AECF30F1B27E5C90074E0FC /* expedition_z4.plist */,
+				9AECF3101B27E5C90074E0FC /* expedition_z5.plist */,
 			);
 			name = ExpeditionInfo;
 			sourceTree = "<group>";
@@ -389,7 +389,7 @@
 		9AECF2A51B2747DA0074E0FC /* expeditionPic */ = {
 			isa = PBXGroup;
 			children = (
-				9AECF2A31B2747D10074E0FC /* image 141.png */,
+				9AECF2FB1B27E4800074E0FC /* image 141.png */,
 			);
 			name = expeditionPic;
 			sourceTree = "<group>";
@@ -476,43 +476,43 @@
 			files = (
 				1DDA509B1B2185BC009319FB /* 开发建材.png in Resources */,
 				9A0BB5B01B2147100084D30C /* EquipInfoDetailViewController.xib in Resources */,
-				9AECF2981B2747290074E0FC /* ExpeditionCell.xib in Resources */,
-				9AECF29F1B27474B0074E0FC /* 010.png in Resources */,
 				1DDA50A41B2185F3009319FB /* image 461.png in Resources */,
 				9AECF2721B27326A0074E0FC /* EquipListAll.plist in Resources */,
-				9AECF2871B2746EB0074E0FC /* expedition_z2.plist in Resources */,
-				9AECF2A11B27474B0074E0FC /* 012.png in Resources */,
+				9AECF3231B27E6A90074E0FC /* 20.3cm连装炮.png in Resources */,
+				9AECF31A1B27E6530074E0FC /* 010.png in Resources */,
+				9AECF31D1B27E6530074E0FC /* 资材.png in Resources */,
 				1DDA50AB1B218789009319FB /* logo.png in Resources */,
-				9AECF2A41B2747D10074E0FC /* image 141.png in Resources */,
-				9AECF2861B2746EB0074E0FC /* expedition_z1.plist in Resources */,
+				9AECF2FC1B27E4800074E0FC /* image 141.png in Resources */,
+				9AECF3071B27E5920074E0FC /* ExpeditionCell.xib in Resources */,
+				9AECF3141B27E5C90074E0FC /* expedition_z4.plist in Resources */,
 				1DDA50A91B218680009319FB /* 高速建造材.png in Resources */,
 				9A45ADE41B2285AD00004D42 /* 12cm单装炮.png in Resources */,
+				9AECF30B1B27E5920074E0FC /* ExpeditonDetailController.xib in Resources */,
+				9AECF31C1B27E6530074E0FC /* 012.png in Resources */,
+				9AECF31B1B27E6530074E0FC /* 011.png in Resources */,
 				9AECF2801B27414D0074E0FC /* ShipipListAll.plist in Resources */,
-				9AECF2A21B27474B0074E0FC /* 资材.png in Resources */,
 				1DDA50981B21859E009319FB /* 钢0.png in Resources */,
 				1DDA50991B21859E009319FB /* 铝0.png in Resources */,
+				9AECF3221B27E6A90074E0FC /* 15.5cm三连装炮.png in Resources */,
+				9AECF3111B27E5C90074E0FC /* expedition_z1.plist in Resources */,
 				1DDA50971B21859E009319FB /* 弹0.png in Resources */,
 				1DDA50AD1B21878E009319FB /* bg-body.jpg in Resources */,
-				9AECF2961B2747290074E0FC /* ExpeditionsListViewConreoller.xib in Resources */,
 				1D9AACA41B20BCDA00A190E2 /* LaunchScreen.xib in Resources */,
 				9A45ADED1B229E0700004D42 /* 10cm连装高角炮.png in Resources */,
-				9AECF2741B2737950074E0FC /* 14cm单装炮.png in Resources */,
 				1D2708191B21936200C95571 /* HTWKcrViewController.xib in Resources */,
-				9AECF2891B2746EB0074E0FC /* expedition_z4.plist in Resources */,
 				1DDA50AF1B2187A4009319FB /* image 56.png in Resources */,
+				9AECF3131B27E5C90074E0FC /* expedition_z3.plist in Resources */,
 				9A45ADEE1B229E0700004D42 /* 12.7cm连装炮.png in Resources */,
-				9AECF29A1B2747290074E0FC /* ExpeditonDetailController.xib in Resources */,
-				9AECF2781B2737C50074E0FC /* 20.3cm连装炮.png in Resources */,
-				9AECF2761B2737B20074E0FC /* 15.5cm三连装炮.png in Resources */,
+				9AECF3211B27E6A90074E0FC /* 14cm单装炮.png in Resources */,
+				9AECF3151B27E5C90074E0FC /* expedition_z5.plist in Resources */,
 				9A45ADEA1B22923900004D42 /* EquipTableViewCell.xib in Resources */,
 				1DDA50A51B2185F3009319FB /* image 463.png in Resources */,
+				9AECF3121B27E5C90074E0FC /* expedition_z2.plist in Resources */,
 				1DDA50A81B218680009319FB /* 高速修复材.png in Resources */,
 				1DDA50961B21859E009319FB /* 油0.png in Resources */,
+				9AECF3091B27E5920074E0FC /* ExpeditionsListViewConreoller.xib in Resources */,
 				1DDA50A21B2185F3009319FB /* image 456.png in Resources */,
 				1DDA50A31B2185F3009319FB /* image 459.png in Resources */,
-				9AECF2A01B27474B0074E0FC /* 011.png in Resources */,
-				9AECF2881B2746EB0074E0FC /* expedition_z3.plist in Resources */,
-				9AECF28A1B2746EB0074E0FC /* expedition_z5.plist in Resources */,
 				1D9AACA11B20BCDA00A190E2 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -533,14 +533,14 @@
 			files = (
 				9A45ADE91B22923900004D42 /* EquipTableViewCell.m in Sources */,
 				9AE46DE41B213C0D00C13EA9 /* EquipInfoTableViewController.m in Sources */,
-				9AECF2951B2747290074E0FC /* ExpeditionsListViewConreoller.m in Sources */,
-				9AECF2991B2747290074E0FC /* ExpeditonDetailController.m in Sources */,
 				9A0BB5AF1B2147100084D30C /* EquipInfoDetailViewController.m in Sources */,
+				9AECF30A1B27E5920074E0FC /* ExpeditonDetailController.m in Sources */,
 				9AE46DDA1B2130B000C13EA9 /* HTWKcrViewController.m in Sources */,
+				9AECF3081B27E5920074E0FC /* ExpeditionsListViewConreoller.m in Sources */,
+				9AECF3061B27E5920074E0FC /* ExpeditionCell.m in Sources */,
 				1D9AAC991B20BCDA00A190E2 /* AppDelegate.m in Sources */,
 				1D9AAC961B20BCDA00A190E2 /* main.m in Sources */,
 				9AECF27B1B2738E70074E0FC /* ShipInfoTableViewController.m in Sources */,
-				9AECF2971B2747290074E0FC /* ExpeditionCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
